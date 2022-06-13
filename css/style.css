@@ -20,7 +20,7 @@ body{
 }
 h2{
 font-size: 30px;
-
+color: #53646b;
 }
 .content {
 	padding: 168px 0 137px 0;
@@ -140,9 +140,10 @@ text-align: center;
 
 }
 .content__image2{
-text-align: center;
+    text-align: center;
 
 }
 p{
-	font-size: 20px;
+     font-size: 20px;
+	 color:#53646b;
 }
