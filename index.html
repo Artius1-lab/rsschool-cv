@@ -1,45 +1,44 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Artemkin CV</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td>
-          <img src="img.jpg" width="200" alt="my photo" />
-        </td>
-        <td>
-          <h1>Artemkin Artem Viktorovich</h1>
-          <p>I like to travel, running and programming</p>
-        </td>
-      </tr>
-    </table>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CV Artemkin</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css?2" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="content">
+			<div class="content-top">
+				<div class="content-top__category">I like to travel, running and programming</div>
+				<h1 class="content-top__title">
+					Artemkin Artem Viktorovich
+				</h1>
+			</div>
+			<div class="content__image">
+				<img src="img/image.jpg" alt="my photo" />
+			</div>
+			<div class="content-bottom">
+				<div class="content-bottom__text">
+					<h2>My social media</h2>
+					<ul class="content-bottom__ul">
+						<li><a href="https://www.instagram.com/accounts/login/?next=/artemonikus/" target="_blank">Instagram</a></li>
+						<li><a href="https://vk.com/id506710290">VK</a></li>
+						</ul>
+					<h2>My education</h2>
+					<ol>
+						<li>Sports and Pedagogical College 2000-2003</li>
+						<li>Moscow Banking Institute 2003-2008</li>
+						<li>THE RUSSIAN PRESIDENTAL ACADEMY OF NATIONAL ECONOMY AND PUBLIC ADMINISTRATION 2011-2013</li>
+					</ol>
 
-    <hr>
-
-    <h2>My social media</h2>
-    <ul>
-      <li><a href="https://www.instagram.com/accounts/login/?next=/artemonikus/" target="_blank">Instagram</a></li>
-        <li><a href="https://vk.com/id506710290" target="_blank">VK</a></li>
-        <li><a href="https://www.youtube.com/channel/UCxS4oNfjr4idiao6nLwrE6A" target="_blank">Youtube</a></li>
-      </ul>
-
-    <hr>
-
-    <h2>My education</h2>
-    <ol>
-      <li>Sports and Pedagogical College 2000-2003</li>
-      <li>Moscow Banking Institute 2003-2008</li>
-      <li>THE RUSSIAN PRESIDENTAL ACADEMY OF NATIONAL ECONOMY AND PUBLIC ADMINISTRATION 2011-2013</li>
-      </ol>
-
-    <hr>
-
-    <h2>Work experience</h2>
-    <table>
+					<h2>Work experience</h2>
+                    <table>
       <tr>
         <th>Company</th>
         <th>Position</th>
@@ -56,10 +55,8 @@
         <td>2021 - 2022</td>
       </tr>
     </table>
-
     <hr>
-
-    <h2>Skills</h2>
+<h2>Skills</h2>
   <ul>
     <li>HTML5</li>
     <li>CSS3</li>
@@ -72,5 +69,18 @@
     <li>+7(905)760-12-10</li>
     <li>artius1@rambler.ru</li>
     </ul>
-  </body>
+				</div>
+				<div class="content-bottom-info">
+					<a target="_blank" href="https://www.youtube.com/channel/UCxS4oNfjr4idiao6nLwrE6A" class="content-bottom-info__link">
+						<span>Youtube</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<div class="content__image2">
+				<img src="img/rs.png" alt="rs photo" />
+			</div>
+	</footer>
 </html>
