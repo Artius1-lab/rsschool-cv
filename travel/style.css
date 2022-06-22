@@ -1,62 +1,120 @@
 
+
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+    background-color: black;
+    
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 26px;
+    
+    
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+}
+.header__item{
+    margin-right: 82px;
+}
+.header__item:last-child{
+    margin-right: 0;
+}
+.header__link1, .header__link2, .header__link3, .header__link4{
+  
+    
+    color: white;
+    text-decoration: none;
+
+      
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+}
+.header_link1{
+margin-top:35px;
+
+}
+.header__link2{
+margin-bottom: 35px;
+
+}
+
+/* Header styles end */
+
+/* Travel Portal */
+
 .travel_portal{
-    position: absolute;
-    width: 200px;
-    height: 31px;
-    left: 156px;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+    justify-content: space-between;
+
+height: 31px;
+left: 156px;
+top: 25px;
+
+font-family: 'Magra';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+margin-left: -150px;
+margin-top:25px;
+color: #FFFFFF;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 10px 80px;
+    gap: 10px;
+    
+    position:absolute;
+    max-width: 40px;
+    height: 30px;
+    left: 1217px;
     top: 25px;
     
-    font-family: 'Magra';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    
-    color: #FFFFFF;
-
-    }
-body{
-background-color: black;
-
-}
-.vector{
-position: absolute;
-left: 8.33%;
-right: 89.58%;
-top: 0.7%;
-bottom: 98.5%;
-}
-
-.header {
-display: flex;
-flex-direction: row;
-color:#FFFFFF;
-
-}
-.how_it_works{
-margin-left: 494px;
-margin-top:35px;
-
-}
-
-.plan_your_trip{
-margin-left:42px;
-margin-top:35px;
-
-}
-
-.plan_your_trip{
-margin-left:100px;
-margin-top:35px;
-
-}
-.destination{
-margin-left:100px;
-margin-top:35px;
-
-}
-
-.travel_stories{
-margin-left:100px;
-margin-top:35px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    color:white;
 }
