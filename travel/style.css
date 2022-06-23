@@ -17,6 +17,18 @@ body{
     color: #102746;
     background-color: black;
     
+    
+        margin: 0; /* Убираем отступы */
+      
+        background: url(/travel/img/bg.png)no-repeat; /* Параметры фона */
+        background-size: cover; /* Фон занимает всю доступную площадь */
+        position: absolute;
+width: 1445px;
+height: 3735px;
+left: 0px;
+top: 0px;
+
+
 }
 
 .wrapper{
@@ -109,22 +121,73 @@ margin-top:25x;
 color: #FFFFFF;
 }
 
-.button1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.btn{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
+
+position: absolute;
+width: 103px;
+height: 41px;
+margin-left: 1217px;
+top: 25px;
+
+background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+margin-right:120px;
+color:#FFFFFF;
+
+
+}
+.header{
+        padding: 5px; /* Поля вокруг текста */
+        background: rgba(242, 120, 92, 0.7); /* Цвет фона */
+        box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+        margin: 0 auto; /* Выравниваем слой по центру */
+        width: 1440px; /* Ширина слоя */
+        height: 90px;
+        opacity: 0.7; /* Значение прозрачности */
+        filter: alpha(Opacity=70); /* Прозрачность в IE */
+       }
+
+       .explore_the_beauty{
+
+        position: absolute;
+        width: 892px;
+        height: 422px;
+        left: 120px;
+        top: 122px;
+        
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        
+        color: #FFFFFF;
+        
+
+       }
+.receive{
+    position: absolute;
+    width: 800px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
     
-    padding: 10px 80px;
-    gap: 10px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
     
-    position:absolute;
-    max-width: 40px;
-    height: 30px;
-    margin-left: 1217px;
-    top: 25px;
     
-    background: #0D606F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    color:white;
+    color: #FFFFFF;
+
 }
