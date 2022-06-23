@@ -133,7 +133,7 @@ gap: 10px;
 position: absolute;
 width: 103px;
 height: 41px;
-margin-left: 1217px;
+margin-left: 1080px;
 top: 25px;
 
 background: #0D606F;
@@ -155,13 +155,13 @@ color:#FFFFFF;
         filter: alpha(Opacity=70); /* Прозрачность в IE */
        }
 
-       .explore_the_beauty{
+.explore_the_beauty{
 
         position: absolute;
         width: 892px;
         height: 422px;
         left: 120px;
-        top: 122px;
+        top: 60px;
         
         font-family: 'Aleo';
         font-style: normal;
@@ -171,14 +171,13 @@ color:#FFFFFF;
         
         color: #FFFFFF;
         
-
        }
 .receive{
     position: absolute;
     width: 800px;
     height: 24px;
     left: 120px;
-    top: 346px;
+    top: 300px;
     
     font-family: 'Aleo';
     font-style: italic;
@@ -190,4 +189,84 @@ color:#FFFFFF;
     
     color: #FFFFFF;
 
+}
+
+.d2{
+    position: absolute;
+    width: 900px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 600px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    height:95px;
+
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #F2785C;
+
+}
+button[type="btn2"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 250px;
+    height: 59px;
+    left: 630px;
+    top: 15px;
+    
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.steps{
+    position: absolute;
+    width: 611px;
+    height: 53px;
+    left: 414px;
+    top: 845px;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    
+    color: #F2785C;
+       
 }
