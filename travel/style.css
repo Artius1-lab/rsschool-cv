@@ -209,7 +209,7 @@ input[type="search"] {
     width: 600px; /* Ширина поля */
     vertical-align: middle; /* Выравнивание по середине */
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.7);
+    background: no-repeat 50% 50%;
     height:95px;
 
 font-family: 'Aleo';
@@ -217,7 +217,6 @@ font-style: italic;
 font-weight: 400;
 font-size: 24px;
 line-height: 29px;
-
 color: #F2785C;
 
 }
@@ -270,3 +269,151 @@ color: #FFFFFF;
     color: #F2785C;
        
 }
+.bike{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left:234px;
+    top: 938px;
+    
+    background: #F2785C;
+    border-radius: 16px;
+
+}
+
+.calendar{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 670px;
+    top: 938px;
+    
+    background: #F2785C;
+    border-radius: 16px;
+
+}
+
+.plane{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1100px;
+    top: 938px;
+    
+    background: #F2785C;
+    border-radius: 16px;
+
+}
+.bike_text{
+    position: absolute;
+    width: 270px;
+    height: 24px;
+    left: 131px;
+    top: 1068px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #0D606F;
+    
+
+}
+
+.calendar_text{
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    left: 609px;
+    top: 1068px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #0D606F;
+    
+
+}
+
+.plane_text {
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 991px;
+    top: 1068px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #0D606F;
+    
+
+}
+
+.popular_destinations{
+    position: absolute;
+    width: 501px;
+    height: 53px;
+    left: 470px;
+    top: 1189px;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    
+    color: #F2785C;
+
+}
+
+.japan_logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 320px;
+    top: 1288px;
+    
+    background: url(/travel/img/japan.png), #FFFFFF;
+    border-radius: 16px;
+
+}
+.usa_logo{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 1100px;
+    top: 1288px;
+    overflow: hidden;
+    
+    border-radius: 16px;
+
+}
+.spain_logo{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: -10px;
+    top: 1288px;
+    overflow: hidden;
+    
+    border-radius: 16px;
+
+}
+
