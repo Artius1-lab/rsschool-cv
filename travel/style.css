@@ -410,7 +410,7 @@ color: #FFFFFF;
     position: absolute;
     width: 200px;
     height: 800px;
-    left: 1180px;
+    right:0px;
     top: 1288px;
     overflow: hidden;
     
@@ -802,5 +802,9 @@ margin-right:24.21px;
 .footer__logo__youtube{
 margin-right:24.12px;
 
+
+}
+.d2_search{
+margin-left:35px;
 
 }
