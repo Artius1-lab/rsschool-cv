@@ -732,7 +732,7 @@ color: #0D606F;
 
 }
 
-button[type="!#"]{
+button[type="search"]{
     display: flex;
     flex-direction: row;
     justify-content: center;
