@@ -20,7 +20,7 @@ body{
     
         margin: 0; /* Убираем отступы */
       
-        background: url(../travel/img/bg.png)no-repeat; /* Параметры фона */
+        background: url(../travel/img/bg.jpg)no-repeat; /* Параметры фона */
         
         position: absolute;
 width: 1445px;
@@ -76,23 +76,23 @@ top: 0px;
     line-height: 21px;
     
 }
-.header_item1{
-margin-top:35px;
-margin-left:494px;
+.header__item1{
+margin-top:-10px;
+margin-left:120px;
 
 }
 .header__item2{
-margin-bottom: 35px;
+margin-top: -10px;
 margin-left:42px;
 }
 
 .header__item3{
-margin-bottom: 35px;
+margin-top: -10px;
 margin-left:42px;
 
 }
 .header__item4{
-margin-bottom: 35px;
+margin-top: -10px;
 margin-left:42px;
 
 }
@@ -107,7 +107,7 @@ flex-wrap: wrap;
 align-items: flex-end;
 justify-content: space-between;
 
-height: 31px;
+height: 32px;
 
 top: 25px;
 
@@ -116,8 +116,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 39px;
-margin-left: 6px;
-margin-top:25x;
+margin-left: 0px;
+margin-top:-8px;
 color: #FFFFFF;
 }
 
@@ -133,8 +133,8 @@ gap: 10px;
 position: absolute;
 width: 103px;
 height: 41px;
-margin-left: 1080px;
-top: 25px;
+margin-left: 1213px;
+margin-top: -50px;
 
 background: #0D606F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -172,8 +172,8 @@ line-height: 21px;
         position: absolute;
         width: 892px;
         height: 422px;
-        left: 120px;
-        top: 60px;
+        left: 123px;
+        top: 70px;
         
         font-family: 'Aleo';
         font-style: normal;
@@ -188,8 +188,8 @@ line-height: 21px;
     position: absolute;
     width: 800px;
     height: 24px;
-    left: 120px;
-    top: 300px;
+    left: 122px;
+    top: 330px;
     
     font-family: 'Aleo';
     font-style: italic;
@@ -223,13 +223,13 @@ input[type="search"] {
     border-radius: 16px;
     background: no-repeat 50% 50%;
     height:95px;
-font-family: 'Aleo';
-font-style: italic;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-color: #F2785C;
-
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+    margin-left:5px;
 }
 
 .btn2{
@@ -241,10 +241,10 @@ color: #F2785C;
     gap: 10px;
     
     position: absolute;
-    width: 250px;
+    width: 233px;
     height: 59px;
-    left: 630px;
-    top: 15px;
+    left: 642px;
+    top: 17px;
     
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -268,7 +268,7 @@ color: #FFFFFF;
     width: 611px;
     height: 53px;
     left: 414px;
-    top: 845px;
+    top: 811px;
     
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -285,7 +285,7 @@ color: #FFFFFF;
     position: absolute;
     width: 100px;
     height: 100px;
-    left:234px;
+    left:208px;
     top: 938px;
     
     background: #F2785C;
@@ -320,8 +320,8 @@ color: #FFFFFF;
     position: absolute;
     width: 270px;
     height: 24px;
-    left: 131px;
-    top: 1068px;
+    left: 132px;
+    top: 1051px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -340,8 +340,8 @@ color: #FFFFFF;
     position: absolute;
     width: 250px;
     height: 24px;
-    left: 609px;
-    top: 1068px;
+    left: 610px;
+    top: 1051px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -360,8 +360,8 @@ color: #FFFFFF;
     position: absolute;
     width: 400px;
     height: 24px;
-    left: 991px;
-    top: 1068px;
+    left: 992px;
+    top: 1051px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -381,7 +381,7 @@ color: #FFFFFF;
     width: 501px;
     height: 53px;
     left: 470px;
-    top: 1189px;
+    top: 1155px;
     
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -472,8 +472,8 @@ color: #FFFFFF;
     position: absolute;
     width: 228px;
     height: 59px;
-    left: 640.5px;
-    top: 2190.25px;
+    left: 610px;
+    top: 2173px;
     
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -500,8 +500,8 @@ color: #FFFFFF;
     position: absolute;
     width: 108px;
     height: 42px;
-    left: 15px;
-    top: 680px;
+    left: 17px;
+    top: 690px;
     
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -743,7 +743,7 @@ color: #0D606F;
     position: absolute;
     width: 228px;
     height: 59px;
-    left: 608px;
+    left: 610px;
     top: 3574px;
     
     background: #0D606F;
