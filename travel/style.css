@@ -478,7 +478,7 @@ color: #FFFFFF;
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
-    padding-left: 70px;
+    padding-left: 78px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -492,8 +492,8 @@ color: #FFFFFF;
 }
 .find_more{
     position: absolute;
-    top: 2210.25px;   
-    left:650.5px;
+    top: 2190.25px;   
+    left:643.5px;
 
 }
 .text_japan{
@@ -535,7 +535,7 @@ color: #FFFFFF;
     width: 335px;
     height: 53px;
     left: 552px;
-    bottom:1371px;
+    bottom:1338px;
     
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -553,7 +553,7 @@ color: #FFFFFF;
     width: 400px;
     height: 250px;
     left: 120px;
-    top: 2444px;
+    top:2444px;
         
     filter: drop-shadow(0px 4px 4px #0D606F);
     border-radius: 16px;
@@ -595,8 +595,8 @@ color: #FFFFFF;
     position: absolute;
     width: 760px;
     height: 42px;
-    left: 560px;
-    top: 2444px;
+    left: 561px;
+    top: 2410px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -631,8 +631,8 @@ color: #0D606F;
     position: absolute;
     width: 760px;
     height: 42px;
-    left: 560px;
-    top: 2724px;
+    left: 562px;
+    top: 2699px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -666,8 +666,8 @@ color: #0D606F;
     position: absolute;
     width: 760px;
     height: 42px;
-    left: 560px;
-    top: 3004px;
+    left: 562px;
+    top: 2975px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -700,8 +700,8 @@ color: #0D606F;
     position: absolute;
     width: 760px;
     height: 42px;
-    left: 559px;
-    top: 3284px;
+    left: 560px;
+    top: 3258px;
     
     font-family: 'Aleo';
     font-style: normal;
@@ -737,7 +737,7 @@ color: #0D606F;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 32px;
+  
     gap: 10px;
     
     position: absolute;
@@ -749,7 +749,8 @@ color: #0D606F;
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
-    padding-right:10px;
+    margin-left: 2px;
+
    
     
 font-family: 'Red Hat Text';
@@ -767,7 +768,7 @@ color: #FFFFFF;
 .see_more{
 
     position: absolute;
-    margin-left: 630.5px;
+    margin-left: 642.5px;
     margin-top:1460.25px;
           
 
@@ -776,8 +777,8 @@ color: #FFFFFF;
     position: absolute;
     width: 260px;
     height: 21px;
-    left: 590px;
-    top: 3695px;
+    left: 591px;
+    top: 3680px;
     
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -791,8 +792,8 @@ color: #FFFFFF;
 .footer__wrapper{
 display: flex;
 flex:row;
-margin-top:1550px;
-margin-left: 1179.4px;
+margin-top:1557px;
+margin-left: 1179.7px;
 }
 .footer__logo__instagram{
 margin-right:24.21px;
