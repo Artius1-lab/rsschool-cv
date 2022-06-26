@@ -20,7 +20,7 @@ body{
     
         margin: 0; /* Убираем отступы */
       
-        background: url(/travel/img/bg.png)no-repeat; /* Параметры фона */
+        background: url(../travel/img/bg.png)no-repeat; /* Параметры фона */
         
         position: absolute;
 width: 1445px;
@@ -164,6 +164,7 @@ line-height: 21px;
         height: 90px;
         opacity: 0.7; /* Значение прозрачности */
         filter: alpha(Opacity=70); /* Прозрачность в IE */
+        z-index:3;
        }
 
 .explore_the_beauty{
@@ -407,7 +408,7 @@ color: #FFFFFF;
 
 }
 .usa_logo{
-    position: absolute;
+    position:absolute;
     width: 200px;
     height: 800px;
     right:0px;
@@ -418,13 +419,12 @@ color: #FFFFFF;
 
 }
 .spain_logo{
-    position: absolute;
+   position: absolute;
     width: 200px;
     height: 800px;
     left: -10px;
     top: 1288px;
     overflow: hidden;
-    
     border-radius: 16px;
 
 }
