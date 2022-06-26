@@ -462,7 +462,7 @@ color: #FFFFFF;
     background: rgba(242, 120, 92, 0.5);
 
 }
-button[type="btn_find_more"]{
+.btn_find_more{
     
     justify-content: center;
     align-items: center;
