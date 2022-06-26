@@ -20,7 +20,7 @@ body{
     
         margin: 0; /* Убираем отступы */
       
-        background: url("../travel/img/bg.png")no-repeat; /* Параметры фона */
+        background: url("../travel/img/bg.png") no-repeat; /* Параметры фона */
         
         position: absolute;
 width: 1445px;
