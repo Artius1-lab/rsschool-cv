@@ -214,7 +214,7 @@ line-height: 21px;
     border-radius: 16px;
     
 }
-input[type="search"] {
+input [type=search] {
     border: none; /* Убираем рамку */
     outline: none; /* Убираем свечение в Chrome и Safari */
     -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
@@ -232,7 +232,7 @@ line-height: 29px;
 color: #F2785C;
 
 }
-button[type="btn2"] {
+.btn2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -732,7 +732,7 @@ color: #0D606F;
 
 }
 
-button[type="search"]{
+.search{
     display: flex;
     flex-direction: row;
     justify-content: center;
