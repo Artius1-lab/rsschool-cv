@@ -153,13 +153,16 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 21px;
-
-
-
-
-
+cursor: pointer;
 
 }
+.btn:active { 
+    color:red;
+    transition: color 1s 
+    }
+
+
+
 .header{
         padding: 5px; /* Поля вокруг текста */
         background: rgba(242, 120, 92, 0.7); /* Цвет фона */
@@ -254,7 +257,7 @@ input[type="search"] {
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
-
+    cursor: pointer;
     
 
 font-family: 'Red Hat Text';
@@ -268,6 +271,10 @@ line-height: 32px;
 color: #FFFFFF;
 }
 
+.btn2:active {
+    background: #0D609F;
+    transition: background 0s;
+}
 .steps{
     position: absolute;
     width: 611px;
@@ -479,7 +486,7 @@ color: #FFFFFF;
     height: 59px;
     left: 610px;
     top: 2173px;
-    
+    cursor: pointer;
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
@@ -495,12 +502,18 @@ color: #FFFFFF;
 color: #FFFFFF;
 
 }
+
+.btn_find_more:active {
+    background: #0D609F;
+    transition: background 0s;
+}
 .find_more{
     position: absolute;
     top: 2190.25px;   
     left:643.5px;
 
 }
+
 .text_japan{
     position: absolute;
     width: 108px;
@@ -750,7 +763,7 @@ color: #0D606F;
     height: 59px;
     left: 610px;
     top: 3574px;
-    
+    cursor: pointer;
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
@@ -768,6 +781,11 @@ line-height: 32px;
 
 color: #FFFFFF;
 
+
+}
+.search_:active{
+    background: #0D609F;
+    transition: background 0s;
 
 }
 .see_more{
