@@ -849,28 +849,25 @@ margin-left:35px;
 }
 
 
-.d2{
-    width: 360px;
-    height: 48px;
+.d2 {
+    width: 361px;
+    height: 47px;
     left: 15px;
-    top: 160px;
-   
+    top: 144px;
 }
 
 input[type="search"]{
    
-    width: 360px;
+    width: 160px;
     height: 48px;
-    left: 15px;
     top: 160px;
     
     background: no-repeat 50% 50%;
     border-radius: 16px;
     width: 226.01px;
     height: 20.12px;
-    left: 31.55px;
+    margin-left: -20px;
     margin-top: 16px;
-    
     font-family: 'Aleo';
     font-style: italic;
     font-weight: 400;
@@ -881,20 +878,16 @@ input[type="search"]{
     
 
 }
-.btn2{
+.btn2 {
     width: 92px;
-    height: 30px;
-    
+    height: 29px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
     line-height: 15px;
-    /* identical to box height */
-    
     display: flex;
     align-items: center;
-    
     color: #FFFFFF;
     left: 260px;
     top: 10px;
