@@ -21,7 +21,7 @@ body{
         margin: 0; /* Убираем отступы */
         
         background: url(../travel/img/bg.jpg)no-repeat; /* Параметры фона */
-        
+       
         position: absolute;
        
        
@@ -832,3 +832,5 @@ margin-right:24.12px;
 margin-left:35px;
 
 }
+
+
