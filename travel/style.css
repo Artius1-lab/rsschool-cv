@@ -897,4 +897,152 @@ body {
     
    background-repeat: no-repeat;
 }
+footer{
+    background-image: url(../travel/img/bg-mobile.jpg);      
+    
+    background-repeat: no-repeat;
+   margin-bottom:100px;
+    
+}
+
+.steps{
+    position: absolute;
+    width: 214px;
+    height: 19px;
+    left: 88px;
+    top: 261px;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.bike{
+position: absolute;
+width: 70px;
+height: 70px;
+left:0px;
+top: 305px;
+transform: scale(0.75);
+}
+.calendar{
+    width: 70px;
+    height: 70px;
+    top:305px;
+    left:155px;
+    transform: scale(0.75)
+}
+.plane{
+    width: 70px;
+    height: 70px;
+    top:305px;
+    left:300px;
+    transform: scale(0.75)
+}
+.bike_text{
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left: 15px;
+    top: 391px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+
+}
+.calendar_text{
+    position: absolute;
+    width: 200px;
+    height: 12px;
+    left: 140px;
+    top: 392px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    
+    color: #0D606F;
+    
+
+}
+.plane_text{
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 277px;
+    top: 391px;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    
+    color: #0D606F;
+
+}
+
+.popular_destinations{
+    position: absolute;
+width: 176px;
+height: 19px;
+left: 107px;
+top: 433px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #F2785C;
+
+}
+.spain_logo{
+    background-image: url(../travel/img/spain_mobile.jpg);
+    position: absolute;
+    width: 360px;
+    height: 210px;
+    left: 15px;
+    top: 483px;
+    
+
+}
+.circle1{
+   
+    margin-left: 177px;
+    margin-top: 674px;
+    z-index: 11;
+    width: 8px;
+    height: 8px;
+
+}
+
+.circle2{
+    margin-left: 6px;
+    margin-top: 674px;
+    z-index: 10;
+    width: 8px;
+    height: 8px;
+}
+.circle3{
+    margin-left: 6px;
+    margin-top: 674px;
+    z-index: 10;
+    width: 8px;
+    height: 8px;
+}
 }
