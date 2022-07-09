@@ -1166,6 +1166,9 @@ color: #F2785C;
     z-index: 110;
 
 }
+.see_more{
+    z-index: 110;
+}
 .travel_stories{
     position: absolute;
     width: 118px;
@@ -1463,14 +1466,17 @@ color: #F2785C;
     position: absolute;
     left:181px;
     top:1426px;
-    z-index: 109;
+    z-index: 202;
 
 }
+
+
+
 .footer__logo__twitter{
     position: absolute;
     left:236px;
     top:1426px;
-    z-index: 109;
+    z-index: 202;
 
 }
 }
