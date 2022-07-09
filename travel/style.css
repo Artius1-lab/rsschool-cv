@@ -454,7 +454,7 @@ color: #FFFFFF;
     height: 20px;
     
     background: rgba(242, 120, 92, 0.5);
-    margin-top:2070px;
+    margin-top:2091px;
     margin-left:681px;
 }
 .circle2{
@@ -463,7 +463,7 @@ color: #FFFFFF;
     width: 20px;
     height: 20px;
     margin-left:10px;
-    margin-top:2070px;
+    margin-top:2091px;
     background: #F2785C;
        
 
@@ -474,7 +474,7 @@ color: #FFFFFF;
     width: 20px;
     height: 20px;
     margin-left:10px;
-    margin-top:2070px;
+    margin-top:2091px;
     background: rgba(242, 120, 92, 0.5);
 
 }
@@ -796,7 +796,7 @@ color: #FFFFFF;
 
     position: absolute;
     margin-left: 644px;
-    margin-top:1460.25px;
+    margin-top:1458.25px;
           
 
 }
@@ -848,8 +848,21 @@ margin-left:-100px;
 .explore_the_beauty {
      opacity: 0;
   }
-.header{
+.travel_portal,.header__item1,.header__item2,.header__item3,.header__item4,.btn{
     opacity:0;
+
+}
+.header{
+    background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);
+    opacity:0.7;
+    margin: 0 auto; /* Выравниваем слой по центру */
+    width: 390px; /* Ширина слоя */
+    
+}
+.header__logo{
+margin-left:-110px;
+margin-top:14px;
+
 }
 .receive{
     opacity:0;
@@ -912,7 +925,7 @@ background-repeat: no-repeat;
 position:absolute;
 Width:390px;
 Height:693px;
-margin-top: 37px;
+margin-top:-696px;
 
 }
 .bg2-mobile_{
@@ -944,23 +957,23 @@ margin-top: 37px;
 position: absolute;
 width: 70px;
 height: 70px;
-left:0px;
-top: 305px;
-transform: scale(0.75);
+left:4px;
+top: 303px;
+transform: scale(0.68);
 }
 .calendar{
     width: 70px;
     height: 70px;
-    top:305px;
-    left:155px;
-    transform: scale(0.75)
+    top:303px;
+    left:151px;
+    transform: scale(0.68)
 }
 .plane{
     width: 70px;
     height: 70px;
-    top:305px;
-    left:300px;
-    transform: scale(0.75)
+    top:303px;
+    left:295px;
+    transform: scale(0.68)
 }
 .bike_text{
     position: absolute;
@@ -1069,7 +1082,7 @@ color: #F2785C;
     position: relative;
     background-image: url(../travel/svg/arrow_left.svg);
     background-repeat: no-repeat;
-    margin-top: 557px;
+    margin-top: 575px;
     margin-left: 26px;
     height: 30px;
     width: 30px;
@@ -1140,6 +1153,17 @@ color: #F2785C;
     margin-top: 32px;
     margin-left: 158px;
     background-repeat: no-repeat;
+
+}
+
+.see_more_mobile{
+    background-image: url(../travel/svg/see_more_mobile.svg);
+    position: relative;
+    height: 100px;
+    margin-top: 635px;
+    margin-left: 162px;
+    background-repeat: no-repeat;
+    z-index: 110;
 
 }
 .travel_stories{
