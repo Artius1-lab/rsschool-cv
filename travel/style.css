@@ -898,20 +898,14 @@ input[type="search"]{
     color: #FFFFFF;
     left: 260px;
     top: 10px;
-    padding: 0 0 0 0;
+    padding: 0 2px 0 0px;
 }
 body {   
     background-image: url(../travel/img/bg-mobile.jpg);      
     
    background-repeat: no-repeat;
 }
-footer{
-    background-image: url(../travel/img/bg-mobile.jpg);      
-    
-    background-repeat: no-repeat;
-   margin-bottom:100px;
-    
-}
+
 .bg2-mobile{
 background-image: url(../travel/img/bg2-mobile.jpg);
 background-repeat: no-repeat;
@@ -1136,7 +1130,7 @@ color: #F2785C;
     display: flex;
     align-items: center;
     text-align: right;
-    padding:0 0px 0 0;
+    padding:0 0px 0 14px;
     
 }
 .find_more_mobile{
@@ -1162,4 +1156,300 @@ color: #F2785C;
     color: #F2785C;
 
 }
+.story1_mobile{
+    position: absolute;
+    background-image: url(../travel/img/story1_mobile.jpg);
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 130px;
+    left: 15px;
+    top: 793px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    z-index: 101;
 }
+.story2_mobile{
+    position: absolute;
+    background-image: url(../travel/img/story2_mobile.jpg);
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 130px;
+    left: 15px;
+    top: 938px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    z-index: 101;
+
+}
+.story3_mobile{
+    position: absolute;
+    background-image: url(../travel/img/story3_mobile.jpg);
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 130px;
+    left: 15px;
+    top: 1083px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    z-index: 101;
+
+}
+.story4_mobile{
+    position: absolute;
+    background-image: url(../travel/img/story4_mobile.jpg);
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 130px;
+    left: 15px;
+    top: 1228px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    z-index: 101;
+
+}
+.story1_{
+    position: absolute;
+    width: 164px;
+    height: 13px;
+    left: 180px;
+    top: 787px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #0D606F;
+    z-index: 101;
+}
+
+.story1_text{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    left: 180px;
+    top: 821px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0D606F;
+    z-index: 101;
+   
+	
+}
+.story1_text a{
+
+    left: 1px;
+    margin-top: -27px;
+    position: relative;
+    top: -2px;
+
+}
+.story1_text_a{
+    font-size:0;
+}
+   
+.story2_{
+    position: absolute;
+    width: 170px;
+    height: 13px;
+    left: 180px;
+    top: 932px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #0D606F;
+    z-index: 101;
+
+}
+
+.story2_text{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    left: 180px;
+    top: 965px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0D606F;
+    z-index: 101;
+}
+.story2_text a{
+
+    left: 1px;
+    margin-top: -27px;
+    position: relative;
+    top: -2px;
+
+}
+.story2_text_a{
+    font-size:0;
+}
+
+
+.story3_{
+    position: absolute;
+    width: 165px;
+    height: 13px;
+    left: 180px;
+    top: 1077px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #0D606F;
+    z-index: 101;
+}
+
+.story3_text{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    left: 180px;
+    top: 1110px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0D606F;
+    z-index: 101;
+}
+.story3_text a{
+
+    left: 1px;
+    margin-top: -27px;
+    position: relative;
+    top: -2px;
+
+}
+.story3_text_a{
+    font-size:0;
+}
+
+
+.story4_{
+    position: absolute;
+    width: 157px;
+    height: 13px;
+    left: 180px;
+    top: 1222px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #0D606F;
+    z-index: 101;
+
+}
+.story4_text{
+    position: absolute;
+    width: 200px;
+    height: 88px;
+    left: 180px;
+    top: 1255px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0D606F;
+    z-index: 101;
+}
+.story4_text a{
+
+    left: 1px;
+    margin-top: -27px;
+    position: relative;
+    top: -2px;
+
+}
+.story4_text_a{
+    font-size:0;
+}
+.search_{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        padding: 0 0 0 14px;
+    gap: 6px;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 149px;
+    top: 1367px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
+    border-radius: 10px;
+    z-index: 102;
+    width: 92px;
+    height: 33px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.spain_logo{
+    opacity: 0;
+}
+.japan_logo{
+    opacity:0;
+}
+.usa_logo{
+    opacity: 0;
+}
+
+.story1{
+    opacity:0;
+
+}
+.story2{
+    opacity: 0;
+}
+.story3{
+    opacity: 0;
+}
+.story4{
+    opacity: 0;
+}
+.footer__logo__instagram{
+    position: absolute;
+    left:131px;
+    top:1426px;
+    z-index: 109;
+  
+
+}
+.footer__logo__youtube{
+    position: absolute;
+    left:181px;
+    top:1426px;
+    z-index: 109;
+
+}
+.footer__logo__twitter{
+    position: absolute;
+    left:236px;
+    top:1426px;
+    z-index: 109;
+
+}
+}
+
+
+
