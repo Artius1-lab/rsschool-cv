@@ -844,13 +844,10 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
-    .html{
-overflow-x:hidden;
-overflow-y: hidden;
-width: 390px;
-
-    }
-  
+    ::-webkit-scrollbar {
+        width: 0;
+      }
+     
 .explore_the_beauty {
      opacity: 0;
   }
