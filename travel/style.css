@@ -844,6 +844,12 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
+    .html{
+overflow-x:hidden;
+overflow-y: hidden;
+width: 390px;
+
+    }
   
 .explore_the_beauty {
      opacity: 0;
@@ -917,7 +923,7 @@ body {
     background-image: url(../travel/img/bg-mobile.jpg);      
     
    background-repeat: no-repeat;
-}
+   }
 
 .bg2-mobile{
 background-image: url(../travel/img/bg2-mobile.jpg);
