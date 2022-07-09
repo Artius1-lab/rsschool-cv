@@ -441,6 +441,8 @@ color: #FFFFFF;
     overflow: hidden;
     border-radius: 16px;
 
+
+
 }
 .circle{
     display: flex;
@@ -452,7 +454,7 @@ color: #FFFFFF;
     height: 20px;
     
     background: rgba(242, 120, 92, 0.5);
-    margin-top:2112px;
+    margin-top:2070px;
     margin-left:681px;
 }
 .circle2{
@@ -461,7 +463,7 @@ color: #FFFFFF;
     width: 20px;
     height: 20px;
     margin-left:10px;
-    margin-top:2112px;
+    margin-top:2070px;
     background: #F2785C;
        
 
@@ -472,7 +474,7 @@ color: #FFFFFF;
     width: 20px;
     height: 20px;
     margin-left:10px;
-    margin-top:2112px;
+    margin-top:2070px;
     background: rgba(242, 120, 92, 0.5);
 
 }
@@ -842,6 +844,7 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
+  
 .explore_the_beauty {
      opacity: 0;
   }
@@ -895,6 +898,7 @@ input[type="search"]{
     color: #FFFFFF;
     left: 260px;
     top: 10px;
+    padding: 0 0 0 0;
 }
 body {   
     background-image: url(../travel/img/bg-mobile.jpg);      
@@ -907,6 +911,25 @@ footer{
     background-repeat: no-repeat;
    margin-bottom:100px;
     
+}
+.bg2-mobile{
+background-image: url(../travel/img/bg2-mobile.jpg);
+background-repeat: no-repeat;
+position:absolute;
+Width:390px;
+Height:693px;
+margin-top: 37px;
+
+}
+.bg2-mobile_{
+    position: absolute;
+    width: 390px;
+    height: 628px;
+    left: 0px;
+    top: 782px;
+    
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
 }
 
 .steps{
@@ -1026,8 +1049,11 @@ color: #F2785C;
     max-height: 100%;
     border-radius: 16px;
 
-
 }
+
+  
+   
+
 .spain_mobile_text{
     position: absolute;
     width: 60px;
@@ -1043,19 +1069,40 @@ color: #F2785C;
     
 
 }
+
+
+.arrow_left{
+    position: relative;
+    background-image: url(../travel/svg/arrow_left.svg);
+    background-repeat: no-repeat;
+    margin-top: 557px;
+    margin-left: 26px;
+    height: 30px;
+    width: 30px;
+    z-index: 100
+}
+.arrow_right{
+    position: relative;
+    background-image: url(../travel/svg/arrow_right.svg);
+    background-repeat: no-repeat;
+    margin-top:-30px;
+    margin-left:350px;
+    height: 30px;
+    z-index: 100;
+
+}
 .circle1{
    
     margin-left: 177px;
-    margin-top: 674px;
+    margin-top: 69px;
     z-index: 11;
     width: 8px;
     height: 8px;
     background: #F2785C;
 }
-
 .circle2{
     margin-left: 6px;
-    margin-top: 674px;
+    margin-top: 69px;
     z-index: 10;
     width: 8px;
     height: 8px;
@@ -1063,7 +1110,7 @@ color: #F2785C;
 }
 .circle3{
     margin-left: 6px;
-    margin-top: 674px;
+    margin-top: 69px;
     z-index: 10;
     width: 8px;
     height: 8px;
@@ -1089,6 +1136,30 @@ color: #F2785C;
     display: flex;
     align-items: center;
     text-align: right;
+    padding:0 0px 0 0;
     
+}
+.find_more_mobile{
+    background-image: url(../travel/svg/arrow_find_more.svg);
+    position: relative;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 158px;
+    background-repeat: no-repeat;
+
+}
+.travel_stories{
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 136px;
+    top: 743px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F2785C;
+
 }
 }
