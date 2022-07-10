@@ -70,7 +70,7 @@ top: 0px;
 .header__item:last-child{
     margin-right: 0;
 }
-.header__link1, .header__link2, .header__link3, .header__link4{
+.header__link1, .header__link2, .header__link3, .header__link4,.header__link5,.header__link6{
   
     
     color: white;
@@ -104,9 +104,11 @@ margin-left:42px;
 
 }
 .header__item5{
-    font-size:0;
+    visibility:hidden;
 }
-
+.header__item6{
+    visibility:hidden;
+}
 /* Header styles end */
 
 /* Travel Portal */
@@ -847,8 +849,11 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
+    html{
+        overflow: hidden; 
+    }
     body{
-width:390px;
+    width:390px;
 
     }
     ::-webkit-scrollbar {
@@ -856,10 +861,10 @@ width:390px;
       }
      
 .explore_the_beauty {
-     opacity: 0;
+    visibility: hidden;
   }
 .travel_portal,.btn{
-    opacity:0;
+    visibility: hidden;
 
 }
 .header{
@@ -924,15 +929,24 @@ word-wrap: wrap;
     line-height: 35px;
 }
 .header__item4{
-        margin-left:60px;
+        margin-left:55px;
         margin-top:0px;
         line-height: 35px;
 }
 .header__item5{
+    margin-left:95px;
+    margin-top:0px;
+    line-height:35px;
+    font-size: 15px;
+    visibility: inherit;
+
+}
+.header__item6{
     margin-left:60px;
     margin-top:0px;
     line-height: 35px;
     font-size: 15px;
+    visibility: inherit;
 
 }
 .burger__line{
@@ -961,7 +975,7 @@ border-radius: 16px;
     height: 15px;
     position:absolute;
     z-index: 2025;
-    margin-top: -160px;
+    margin-top: -230px;
     margin-left: 10px;
 
 }
@@ -983,7 +997,7 @@ width: 100%;
 
 }
 .receive{
-    opacity:0;
+    visibility:hidden;
 }
 
 
@@ -1550,27 +1564,27 @@ color: #F2785C;
     color: #FFFFFF;
 }
 .spain_logo{
-    opacity: 0;
+     visibility: hidden;
 }
 .japan_logo{
-    opacity:0;
+    visibility:hidden;
 }
 .usa_logo{
-    opacity: 0;
+    visibility: hidden;
 }
 
 .story1{
-    opacity:0;
+    visibility: hidden;
 
 }
 .story2{
-    opacity: 0;
+    visibility: hidden;
 }
 .story3{
-    opacity: 0;
+    visibility: hidden;
 }
 .story4{
-    opacity: 0;
+    visibility: hidden;
 }
 .footer__logo__instagram{
     position: absolute;
