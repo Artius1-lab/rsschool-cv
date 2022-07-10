@@ -851,7 +851,7 @@ margin-left:-100px;
 .explore_the_beauty {
      opacity: 0;
   }
-.travel_portal,.header__item1,.header__item2,.header__item3,.header__item4,.btn{
+.travel_portal,.btn{
     opacity:0;
 
 }
@@ -862,9 +862,89 @@ margin-left:-100px;
     width: 390px; /* Ширина слоя */
     
 }
+
 .header__logo{
 margin-left:-110px;
 margin-top:14px;
+
+}
+
+.header__burger{
+    
+    width: 28px;
+    height: 10px;
+    margin-top: -300px;
+    margin-left: 214px;
+    position: relative;
+}
+
+.header__nav{
+z-index: 1010;
+top:0;
+left:0;
+width: 390px;
+height:251px;
+background: rgba(242, 120, 92);
+border-radius: 16px;
+transform: translateY(-150%);
+}
+.header__nav_active{
+    transform: translateY(0);
+    transition: .2s all linear;
+}
+
+.header__item1{
+    left:5px;
+}
+.header__item2{
+   margin-left:-10px;
+}
+
+.burger__line{
+display: flex;
+width: 100%;
+height:4px;
+background-color: #FFFFFF;
+position: absolute;
+}
+
+.burger__line_first{
+top:0;
+border-radius: 16px;
+}
+.burger__line_second{
+top: 7px;
+border-radius: 16px;
+}
+.burger__line_third{
+top: 14px;
+border-radius: 16px;
+}
+
+.header__nav-close{
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    z-index: 2025;
+    margin-top: -60px;
+    margin-left: 10px;
+
+}
+.header__nav-close-line{
+display: block;
+height:2px;
+background-color: #FFFFFF;
+position:absolute;
+top:50%;
+width: 100%;
+
+}
+.header__nav-close-line:first-child{
+    transform: translateY(-50%) rotate(45deg);
+
+}
+.header__nav-close-line:last-child{
+    transform: translateY(-50%) rotate(-45deg);
 
 }
 .receive{
