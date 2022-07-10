@@ -856,9 +856,7 @@ margin-left:-100px;
     width:390px;
 
     }
-    ::-webkit-scrollbar {
-        width: 0;
-      }
+    
      
 .explore_the_beauty {
     visibility: hidden;
@@ -1007,6 +1005,7 @@ width: 100%;
     left: 15px;
     top: 144px;
     padding-left: 30px;
+    z-index: 101;
 }
 
 input[type="search"]{
@@ -1027,8 +1026,7 @@ input[type="search"]{
     font-size: 14px;
     line-height: 17px;
     color: #F2785C;
-    
-
+    z-index: 2400;
 }
 .btn2 {
     width: 92px;
@@ -1044,6 +1042,9 @@ input[type="search"]{
     left: 260px;
     top: 10px;
     padding: 0 2px 0 0px;
+    pointer-events: visible;
+    position: absolute;
+    z-index: 99;
 }
 body {   
     background-image: url(../travel/img/bg-mobile.jpg);      
@@ -1540,7 +1541,7 @@ color: #F2785C;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-        padding: 0 0 0 14px;
+    padding: 0 0 0 14px;
     gap: 6px;
     position: absolute;
     width: 150px;
