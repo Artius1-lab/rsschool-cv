@@ -889,12 +889,13 @@ margin-top:14px;
 }
 
 .header__nav{
-z-index: 1010;
+z-index: 109;
 top:0;
 left:0;
 width: 390px;
 height:251px;
 background: rgba(242, 120, 92);
+opacity: 1;
 border-radius: 16px;
 transform: translateY(-150%);
 }
@@ -1044,7 +1045,7 @@ input[type="search"]{
     padding: 0 2px 0 0px;
     pointer-events: visible;
     position: absolute;
-    z-index: 99;
+    z-index: 109;
 }
 body {   
     background-image: url(../travel/img/bg-mobile.jpg);      
