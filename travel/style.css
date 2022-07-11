@@ -40,6 +40,7 @@ top: 0px;
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
+    display: inherit;
  
 }
 
@@ -851,10 +852,12 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
-  
+    ::-webkit-scrollbar {
+        width: 0;
+      }
     body{
     width:390px;
-
+    max-width: 390px;
     }
     
      
@@ -902,6 +905,7 @@ transform: translateY(-150%);
 .header__nav_active{
     transform: translateY(0);
     transition: .2s all linear;
+    width:222px;
 }
 .header__list{
 display:flex;
@@ -1006,7 +1010,7 @@ width: 100%;
     left: 15px;
     top: 144px;
     padding-left: 30px;
-    
+   
 }
 
 input[type="search"]{
@@ -1045,7 +1049,7 @@ input[type="search"]{
     padding: 0 2px 0 0px;
     pointer-events: visible;
     position: absolute;
- 
+
 }
 body {   
     background-image: url(../travel/img/bg-mobile.jpg);      
