@@ -913,6 +913,7 @@ transform: translateY(-150%);
     transform: translateY(0);
     transition: .2s all linear;
     width:222px;
+   
 }
 .header__list{
 display:flex;
