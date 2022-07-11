@@ -1,4 +1,3 @@
-document.getElementById("btn2_").onclick = function () {
-    location.href = "www.yoursite.com";
-    console.log("Artemkin");
-};
+document.getElementById('btn2_mobile_').onclick = function(){
+    location.href = "https://www.youtube.com/";
+}
