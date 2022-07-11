@@ -852,8 +852,12 @@ margin-left:-100px;
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
+    
     ::-webkit-scrollbar {
         width: 0;
+      }
+    html{
+    overflow-x: hidden;
       }
     body{
     width:390px;
