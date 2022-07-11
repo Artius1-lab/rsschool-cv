@@ -1,4 +1,4 @@
-window.onscroll = function () {
-    window.scrollTo(10, 0);
-   }
+//window.onscroll = function () {
+  //  window.scrollTo(0, 0);
+   //}
 
