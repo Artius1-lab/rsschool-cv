@@ -1,3 +1,5 @@
-window.onscroll = function () {
-    window.scrollTo(0,0);
-   }
+window.scroll(function () {
+    this.scrollTop = 0;
+    this.scrollRight = 0;
+    this.scrollLeft = 0;
+});
