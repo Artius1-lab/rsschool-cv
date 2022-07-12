@@ -858,8 +858,15 @@ margin-left:-100px;
     width:390px;
     max-width: 390px;
     box-sizing: border-box;
+    height: 3500px;
     }
-    
+.body_mobile{
+    width: 390px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: 3500px;
+
+}
      
 .explore_the_beauty {
     visibility: hidden;
