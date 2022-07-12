@@ -5,6 +5,7 @@
 
 html{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -859,14 +860,17 @@ margin-left:-100px;
     html{
     overflow-x: hidden;
     box-sizing: border-box;
-    height: 100%;
+   
       }
     body{
     width:390px;
     max-width: 390px;
     box-sizing: border-box;
     }
-    
+    .body_mobile_global{
+    width: 390px;
+    overflow-x: hidden;
+    }  
      
 .explore_the_beauty {
     visibility: hidden;
