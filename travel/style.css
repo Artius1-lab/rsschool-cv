@@ -105,7 +105,14 @@ top: 0px;
 
     color: #0D606F;
 }
-
+.google_popup_svg{
+    position: absolute;
+    width: 22.97px;
+    height: 25.31px;
+    top: 185px;
+    left: 202px;
+    z-index: 2001;
+}
 .open-popup {
     display: inline-block;
     padding: 15px 30px;
