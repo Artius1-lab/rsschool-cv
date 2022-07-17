@@ -1,7 +1,7 @@
 function startsignpopup(){
     document.getElementById('popup_id').style.height = '500px';
     //document.getElementById('popup_id').style.width = '500px';
-    
+    document.getElementById("email_popup_id").style.margin = "100px 2px";
 
     log_popup_id.hidden = true;
     facebook_popup_id.hidden=true;
