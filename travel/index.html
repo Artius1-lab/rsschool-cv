@@ -109,20 +109,33 @@
                         <img src="../travel/svg/google_popup.svg" alt="google" class="google_popup_svg">
                     </a>
                     <label>
-                        
-                        <input type="text" name="name">
-                        <div class="label__text">
-                            Ваше имя
+                        <a href="#!" class="line_left_popup">
+                            <img src="../travel/svg/line_left_popup.svg" alt="line_left" class="line_left_popup_svg">
+                        </a>
+
+                        <a href="#!" class="line_right_popup">
+                            <img src="../travel/svg/line_right_popup.svg" alt="line_right" class="line_right_popup_svg">
+                        </a>
+                        <h3 class="or_popup">or</h3>
+                        <input type="text" id="email_popup_id" name="name" class="email_popup">
+                        <div class="label__text_email">
+                            E-mail
                         </div>
                     </label>
                     <label>
-                        <input type="tel" name="tel">
-                        <div class="label__text">
-                            Ваш телефон
+                        <input type="text" id="password_popup_id"name="password" class="password_popup">
+                        <div class="label__text_password">
+                            Password
                         </div>
                     </label>
                    
-                    <button type="submit">Отправить</button>
+                    <button type="submit" id="sign_in_popup_id" class="sign_in_popup">Sign In</button>
+                    <a href="http://www.google.com" class="forgot_your_password">Forgot Your Password?</a>
+                    <a href="#!" class="line_popup">
+                        <img src="../travel/svg/line_popup.svg" alt="line_popup" class="line_popup_svg">
+                    </a>
+                    <h4 class="account_popup">Don’t have an account? <a href="http://www.google.com">Register</a></h4>
+
                 </form>
             </div>  
 
@@ -281,7 +294,8 @@
         <script src="scrolltext2.js"></script>
         <script src="close.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <script src="popup.js"></script>     
+        <script src="popup.js"></script>   
+        <script src="alert.js"></script>  
     </footer>
 </body>
 </html>
