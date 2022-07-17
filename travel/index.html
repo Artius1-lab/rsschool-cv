@@ -88,35 +88,35 @@
             </div>
         </div>
         <form action="#!">
-        <button class="btn">Login</button>
+        <button class="btn" onclick="reload_interval(30000); return false;">Login</button>
         </form>
         </header>
         <main>
         <section>
 
 
-         
+         <!-- popup menu -->
             
             <div class="popup__bg">
-                <form class="popup">
-                    <h3 class="log_popup">Log in to your account</h3>
-                    <button class="facebook_popup">Sign In with Facebook</button>
-                    <a href="#!" class="facebook_one">
+                <form class="popup" id="popup_id">
+                    <div class="log_popup" id="log_popup_id">Log in to your account</div>
+                    <button class="facebook_popup" id="facebook_popup_id">Sign In with Facebook</button>
+                    <a href="#!" id="facebook_one_id" class="facebook_one">
                         <img src="../travel/svg/facebook_popup.svg" alt="facebook" class="facebook_popup_svg">
                     </a>
-                    <button class="google_popup">Sign In with Google</button>
-                    <a href="#!" class="google_one">
+                    <button class="google_popup" id="google_popup_id">Sign In with Google</button>
+                    <a href="#!" id="google_one_id" class="google_one">
                         <img src="../travel/svg/google_popup.svg" alt="google" class="google_popup_svg">
                     </a>
                     <label>
-                        <a href="#!" class="line_left_popup">
+                        <a href="#!" id="line_left_popup_id" class="line_left_popup">
                             <img src="../travel/svg/line_left_popup.svg" alt="line_left" class="line_left_popup_svg">
                         </a>
 
-                        <a href="#!" class="line_right_popup">
+                        <a href="#!" id="line_right_popup_id" class="line_right_popup">
                             <img src="../travel/svg/line_right_popup.svg" alt="line_right" class="line_right_popup_svg">
                         </a>
-                        <h3 class="or_popup">or</h3>
+                        <div class="or_popup" id="or_popup_id">or</div>
                         <input type="text" id="email_popup_id" name="name" class="email_popup">
                         <div class="label__text_email">
                             E-mail
@@ -134,15 +134,19 @@
                     <a href="#!" class="line_popup">
                         <img src="../travel/svg/line_popup.svg" alt="line_popup" class="line_popup_svg">
                     </a>
-                    <h4 class="account_popup">Don’t have an account? <a href="http://www.google.com">Register</a></h4>
+                    <h4 class="account_popup">Don’t have an account?</h4> 
+                    <div class="register_popup" onclick="startsignpopup()">Register</div>
 
                 </form>
             </div>  
 
+ <!-- popup menu end-->
+
+ <!-- sign up menu -->
 
 
 
-
+ <!-- sign up menu end-->
 
           
        <h1 class="explore_the_beauty">Explore the beauty of the World</h1>
@@ -295,7 +299,8 @@
         <script src="close.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         <script src="popup.js"></script>   
-        <script src="alert.js"></script>  
+        <script src="alert.js"></script>
+        <script src="signup.js"></script>  
     </footer>
 </body>
 </html>
