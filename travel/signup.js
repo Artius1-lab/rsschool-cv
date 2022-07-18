@@ -27,15 +27,16 @@ function startsignpopup (){
 
 
     document.querySelector(".register_popup").innerHTML='<div class="registerLink" id="registerLink_id">Log in</div>';
-    //document.querySelector(".registerLink").addEventListener("click",(e) => {
-      //  e.preventDefault();
-       // popupBg.classList.add('active');
-        //popup.classList.add('active');
+    document.querySelector(".registerLink").addEventListener("click",(e) => {
+      document.location.reload();
+      e.preventDefault();
+      popupBg.classList.add('active');
+      popup.classList.add('active');
         
-   // let a = document.location.reload(true);   
+         
     
                  
-    //})
+    })
             
                     
 
