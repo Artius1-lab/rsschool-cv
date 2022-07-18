@@ -88,7 +88,7 @@
             </div>
         </div>
         <form action="#!">
-        <button class="btn" onclick="reload_interval(30000); return false;">Login</button>
+        <button class="btn">Login</button>
         </form>
         </header>
         <main>
@@ -118,24 +118,24 @@
                         </a>
                         <div class="or_popup" id="or_popup_id">or</div>
                         <input type="text" id="email_popup_id" name="name" class="email_popup">
-                        <div class="label__text_email">
+                        <div class="label__text_email" id="label__text_email_id">
                             E-mail
                         </div>
                     </label>
                     <label>
                         <input type="text" id="password_popup_id"name="password" class="password_popup">
-                        <div class="label__text_password">
+                        <div class="label__text_password" id="label__text_password_id">
                             Password
                         </div>
                     </label>
                    
                     <button type="submit" id="sign_in_popup_id" class="sign_in_popup">Sign In</button>
-                    <a href="http://www.google.com" class="forgot_your_password">Forgot Your Password?</a>
-                    <a href="#!" class="line_popup">
+                    <a href="http://www.google.com" class="forgot_your_password" id="forgot_your_password_id">Forgot Your Password?</a>
+                    <a href="#!" class="line_popup" id="line_popup_id">
                         <img src="../travel/svg/line_popup.svg" alt="line_popup" class="line_popup_svg">
                     </a>
-                    <h4 class="account_popup">Don’t have an account?</h4> 
-                    <div class="register_popup" onclick="startsignpopup()">Register</div>
+                    <div class="account_popup" id="account_popup_id">Don’t have an account?</div> 
+                    <div class="register_popup" id = "register_popup_id" onclick="startsignpopup()">Register</div>
 
                 </form>
             </div>  

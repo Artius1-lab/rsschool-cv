@@ -132,7 +132,7 @@ position: absolute;
 width: 20px;
 height: 24px;
 left: 315px;
-top: 221px;
+top: 242px;
 
 font-family: 'Aleo';
 font-style: normal;
@@ -353,13 +353,14 @@ top:580px;
 }
 .register_popup{
     position: absolute;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: 356px;
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
+    text-decoration: underline;
     /* identical to box height */
 
 
