@@ -5,7 +5,7 @@
 
 html{
     box-sizing: border-box;
-    overflow-x: hidden;
+  /*  overflow-x: hidden;*/
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -778,45 +778,47 @@ color: #FFFFFF;
     
     background: #FFFFFF;
     border-radius: 16px;
-
+    margin:0px;
+    padding:0px;
 }
 .usa_logo{
     position:absolute;
     width: 200px;
     height: 800px;
-    right:0px;
+    
     top: 1288px;
-    overflow: hidden;
     
     border-radius: 16px;
+    margin:0px;
+    padding: 0px;
 
 }
 .spain_logo{
    position: absolute;
     width: 200px;
     height: 800px;
-    left: -10px;
+    
     top: 1288px;
-    overflow: hidden;
+   
     border-radius: 16px;
-
-
+    margin:0px;
+    padding:0px;
 
 }
-.circle{
+/*.circle{
     display: flex;
     flex:row;
 }
+*/
 .circle1{
-    border-radius: 50%;
+    
     width: 20px;
     height: 20px;
-    
-    background: rgba(242, 120, 92, 0.5);
+      
     margin-top:2091px;
     margin-left:681px;
 }
-.circle2{
+/*.circle2{
     
     border-radius: 50%;
     width: 20px;
@@ -837,6 +839,9 @@ color: #FFFFFF;
     background: rgba(242, 120, 92, 0.5);
 
 }
+*/
+
+
 .btn_find_more{
     
     justify-content: center;
@@ -1426,7 +1431,7 @@ background-repeat: no-repeat;
 position:absolute;
 Width:390px;
 Height:693px;
-margin-top:-696px;
+margin-top:-850px;
 
 }
 .bg2-mobile_{
@@ -1606,7 +1611,7 @@ color: #F2785C;
     z-index: 11;
     width: 8px;
     height: 8px;
-    background: #F2785C;
+    
 }
 .circle2{
     margin-left: 6px;
@@ -1614,7 +1619,7 @@ color: #F2785C;
     z-index: 10;
     width: 8px;
     height: 8px;
-    background: rgba(242, 120, 92, 0.5);
+    
 }
 .circle3{
     margin-left: 6px;
@@ -1991,6 +1996,13 @@ color: #F2785C;
     position: absolute;
     z-index: 190;
 }
+
+/*------- Slider ----------*/
+
+.image-slider__image img{
+    max-width: 100%;
+}
+
 }
 
 

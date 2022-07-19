@@ -20,25 +20,28 @@ function startsignpopup (){
     var logElem_ = document.querySelector(".account_popup");
     logElem_.textContent = "Already have an account? ";
 
-    //var logElem_register = document.querySelector(".register_popup");
-    //var a = logElem_register.textContent = "Log"+" "+"in";
+
     let popupBg = document.querySelector('.popup__bg');
     let popup = document.querySelector('.popup');
-
-
+ 
     document.querySelector(".register_popup").innerHTML='<div class="registerLink" id="registerLink_id">Log in</div>';
-    document.querySelector(".registerLink").addEventListener("click",(e) => {
-      document.location.reload();
-      e.preventDefault();
-      popupBg.classList.add('active');
-      popup.classList.add('active');
+   document.querySelector(".registerLink").addEventListener("click",(e) => {
+   let reload = document.location.reload();
+   
+   reload_();
+   function reload_() {
+    //e.preventDefault();
         
+     //popupBg.classList.add('active');
+     //popup.classList.add('active');
+     alert("Artemkin Artem")
+    document.getElementById('popup_id').style.height = '800px';
+  }
+      
          
-    
-                 
-    })
+  });
             
-                    
+           
 
         
 
@@ -54,6 +57,13 @@ function startsignpopup (){
     or_popup_id.hidden=true;
     forgot_your_password_id.hidden=true;
     
+   
+
 }
+
+
+registerLink.addEventListener("click",(e) => {
+alert("Viktorovich");
+});
 
 

@@ -1,3 +1,5 @@
+
+
 let popupBg = document.querySelector('.popup__bg');
 let popup = document.querySelector('.popup');
 let openPopupButtons = document.querySelectorAll('.btn');
