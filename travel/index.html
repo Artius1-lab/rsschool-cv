@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
 
     <script src="index.js"></script>
    
@@ -188,37 +188,38 @@
         <h2 class="popular_destinations">POPULAR DESTINATIONS</h2>
         <!--------Slider------->
 
-        <div class="image-slider swiper-container">
-            <div class="image-slider__wrapper swiper-wrapper">
-                <div class="image-slider__slide swiper-slide">
-        
-               
-                    <div id ="spain_logo_id" class="spain_logo image-slider__image">
-                        <img src="../travel/img/spain.jpg" alt="SPAIN">
-                    </div>
-                    </div>
-        
-                    <div class="image-slider__slide swiper-slide">           
-        <div class="image-slider__image japan_logo">
-        <img src="../travel/img/japan.jpg" alt="Japan">
-        <h3 class="text_japan">JAPAN</h3>
-    </div>
-    </div>
-
-    <div class="image-slider__slide swiper-slide">
-    <div class="image-slider__image usa_logo">
-        <img src="../travel/img/usa.jpg" alt="USA">
-        <h3 class="text_usa">USA</h3>
-    </div>
-</div>
-
-
-    </div>
-    <div class="swiper-pagination"></div>
-    </div>
+        <div class="carousel">
+            <div class="items-container">
+              <div class="item active">
+                <div class="description">
+                  
+                  <img class="project-image spain_logo card" src="../travel/img/spain.jpg" alt="project">
+                </div>
+              </div>
+              <div class="item">
+                <div class="description">
+                 
+                  <img class="project-image japan_logo card" src="../travel/img/japan.jpg" alt="project">
+                </div>
+              </div>
+              <div class="item">
+                <div class="description">
+                 
+                  <img class="project-image usa_logo card" src="../travel/img/usa.jpg" alt="project">
+                </div>
+              </div>
+            </div>
+            <div class="control left">
+              
+            </div>
+            <div class="control right">
+            
+            </div>
+          </div>
+    
     <!---------Slider end------->
 
-    </div>
+    
    <div class="arrow">
     <div class="arrow_left"></div>
     <div class="arrow_right"></div>
@@ -226,11 +227,12 @@
     <div class="spain_mobile_text">SPAIN</div>
     </div>
     </section>
-    <div class="circle">
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-    <div class="circle3"></div>
+   <div class="circle dots-wrapper">
+    <button class="circle1 dot" id="dot"></button>
+    <button class="circle2 dot" id="dot"></button>
+    <button class="circle3 dot active" id="dot"></button>
     </div>
+
     <form class="btn3" action="https://rs.school/">
         <button class="btn_find_more">Find More</button>
       </form>
@@ -323,10 +325,13 @@
         <script src="popup.js"></script>   
         <script src="alert.js"></script>
         <script src="signup.js"></script>  
-       <!--Swiper-->
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+       <!--Swiper
+       <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
        <script src="swiper.js"></script>
-       
+       -->
+
+       <!--Slider-->
+       <script src="slider.js"></script>       
     </footer>
 </body>
 </html>

@@ -770,10 +770,10 @@ color: #FFFFFF;
 
 .japan_logo{
   
-    position: absolute;
+    
     width: 800px;
     height: 800px;
-    left: 320px;
+   
     top: 1288px;
     
     background: #FFFFFF;
@@ -782,8 +782,8 @@ color: #FFFFFF;
     padding:0px;
 }
 .usa_logo{
-    position:absolute;
-    width: 200px;
+   
+    width: 800px;
     height: 800px;
     
     top: 1288px;
@@ -794,8 +794,8 @@ color: #FFFFFF;
 
 }
 .spain_logo{
-   position: absolute;
-    width: 200px;
+   
+    width: 800px;
     height: 800px;
     
     top: 1288px;
@@ -805,20 +805,20 @@ color: #FFFFFF;
     padding:0px;
 
 }
-/*.circle{
+.circle{
     display: flex;
     flex:row;
 }
-*/
+
 .circle1{
-    
+    border-radius:50%;
     width: 20px;
     height: 20px;
-      
+    background: rgba(242, 120, 92, 0.5);
     margin-top:2091px;
     margin-left:681px;
 }
-/*.circle2{
+.circle2{
     
     border-radius: 50%;
     width: 20px;
@@ -839,7 +839,7 @@ color: #FFFFFF;
     background: rgba(242, 120, 92, 0.5);
 
 }
-*/
+
 
 
 .btn_find_more{
@@ -1183,7 +1183,7 @@ color: #FFFFFF;
 .footer__wrapper{
 display: flex;
 flex:row;
-margin-top:1557px;
+margin-top:1580px;
 margin-left: 1179.7px;
 }
 .footer__logo__instagram{
@@ -1202,9 +1202,144 @@ margin-left:35px;
 }
 .spain_mobile_text{
 margin-left:-100px;
-
+display: none;
 }
  
+/*-------------- Slider-----------------*/
+.carousel {
+    position: absolute;
+    top: 1665px;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width:800px;
+    margin:0px;
+  }
+  
+  .items-container {
+    position: relative;
+   width:800px;
+    display: flex;
+   
+  }
+  
+  .item {
+    display: none;
+    position: relative;
+    animation: 0.5s ease-in-out;
+    margin: 0 auto;
+  }
+  
+  .active,
+  .next {
+    display: block;
+  }
+  
+  .next {
+    position: absolute;
+    top: 0;
+    
+  }
+  
+
+  
+  .project-name {
+    padding: 10px;
+  }
+  
+  .control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    cursor: pointer;
+  }
+  
+  .control.left {
+    left: 0;
+    right: auto;
+  }
+  
+  .control.right {
+    right: 0;
+    left: auto;
+  }
+  
+  .arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 84px;
+  }
+  
+  .arrow.right {
+    right: 50%;
+  }
+  
+  .to-left {
+    animation-name: left;
+  }
+  
+  .from-right {
+    animation-name: right;
+  }
+  
+  .to-right {
+    animation-name: right;
+    animation-direction:reverse;
+  }
+  
+  .from-left {
+    animation-name: left;
+    animation-direction: reverse;
+  }
+  
+  @keyframes left {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes right {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  
+
+  
+/*Slider end*/
+
+
+/*-----------------Dots--------------------*/
+
+.dot {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .dot.active {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+/*-----------------Dots end---------------*/
+
+
+
+
 /*Media mobile*/
 
 @media screen and (max-width: 390px) {  
@@ -1431,7 +1566,7 @@ background-repeat: no-repeat;
 position:absolute;
 Width:390px;
 Height:693px;
-margin-top:-850px;
+margin-top:-14px;
 
 }
 .bg2-mobile_{
@@ -1557,7 +1692,7 @@ color: #F2785C;
     width: 360px;
     height: 210px;
     left: 15px;
-    top: 483px;
+    top: -1083px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 16px;
@@ -1579,7 +1714,7 @@ color: #F2785C;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
-    
+    display: none;
 
 }
 
@@ -1611,6 +1746,7 @@ color: #F2785C;
     z-index: 11;
     width: 8px;
     height: 8px;
+    background: black;
     
 }
 .circle2{
@@ -1619,7 +1755,7 @@ color: #F2785C;
     z-index: 10;
     width: 8px;
     height: 8px;
-    
+    background: black;
 }
 .circle3{
     margin-left: 6px;
