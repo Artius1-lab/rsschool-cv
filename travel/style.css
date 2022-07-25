@@ -1160,9 +1160,12 @@ color: #FFFFFF;
 
     position: absolute;
     margin-left: 644px;
-    margin-top:1458.25px;
+    margin-top:1475.25px;
           
 
+}
+.see_more-link{
+    margin-top:100px;
 }
 .all_rights{
     position: absolute;
@@ -1201,8 +1204,8 @@ margin-left:35px;
 
 }
 .spain_mobile_text{
-margin-left:-100px;
-display: none;
+margin-left:-200px;
+visibility: hidden;
 }
  
 /*-------------- Slider-----------------*/
@@ -1219,16 +1222,17 @@ display: none;
   
   .items-container {
     position: relative;
-   width:800px;
+    
     display: flex;
-   
+    
   }
   
   .item {
-    display: none;
+    
     position: relative;
-    animation: 0.5s ease-in-out;
+    animation: 0.5s ;
     margin: 0 auto;
+    padding: 10px;
   }
   
   .active,
@@ -1272,6 +1276,8 @@ display: none;
     top: 50%;
     transform: translateY(-50%);
     font-size: 84px;
+    margin-top:0px;
+
   }
   
   .arrow.right {
@@ -1323,7 +1329,7 @@ display: none;
 
 .dot {
     border: none;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(242, 120, 92, 0.5);
     
     border-radius: 50%;
     outline: none;
@@ -1332,7 +1338,7 @@ display: none;
     background: rgba(0, 0, 0, 0.3);
   }
   .dot.active {
-    background: rgba(0, 0, 0, 0.5);
+    background: #F2785C;;
   }
 
 /*-----------------Dots end---------------*/
@@ -1566,7 +1572,7 @@ background-repeat: no-repeat;
 position:absolute;
 Width:390px;
 Height:693px;
-margin-top:-14px;
+margin-top:-696px;
 
 }
 .bg2-mobile_{
@@ -1706,15 +1712,16 @@ color: #F2785C;
     position: absolute;
     width: 60px;
     height: 26px;
-    top: 492px;
-    left: 129px;
+    margin-top: -1676px;
+    margin-left: 32px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
-    display: none;
+    color:white;
+    visibility: visible;
+    z-index: 4000;
 
 }
 
@@ -1727,7 +1734,7 @@ color: #F2785C;
     margin-left: 26px;
     height: 30px;
     width: 30px;
-    z-index: 100
+    z-index: 4000;
 }
 .arrow_right{
     position: relative;
@@ -1742,24 +1749,24 @@ color: #F2785C;
 .circle1{
    
     margin-left: 177px;
-    margin-top: 69px;
+    margin-top: 675px;
     z-index: 11;
     width: 8px;
     height: 8px;
-    background: black;
+    background: #F2785C;
     
 }
 .circle2{
     margin-left: 6px;
-    margin-top: 69px;
+    margin-top: 675px;
     z-index: 10;
     width: 8px;
     height: 8px;
-    background: black;
+    background: rgba(242, 120, 92, 0.5);
 }
 .circle3{
     margin-left: 6px;
-    margin-top: 69px;
+    margin-top: 675px;
     z-index: 10;
     width: 8px;
     height: 8px;
@@ -1811,6 +1818,7 @@ color: #F2785C;
 .see_more{
     z-index: 110;
 }
+
 .travel_stories{
     position: absolute;
     width: 118px;
