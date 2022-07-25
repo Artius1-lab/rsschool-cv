@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="zxx">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
     <link rel="stylesheet" href="style.css">
+    
+
     <script src="index.js"></script>
    
 
@@ -43,8 +45,9 @@
 
 </head>
 <body class="body_mobile">
+    <div class = body_mobile_global>
     <header class="header">
-               <div class="wrapper">
+           <div class="wrapper">
             <div id ="header__wrapper_id" class="header__wrapper">
                 <div class="header__logo">
                     <a href="https://rs.school/" class="header__logo-link">
@@ -74,7 +77,6 @@
                             <a href="#!" class="header__link6">Social Media</a>
                         </li>
                     </ul>
-                
                     <div class="header__nav-close">
                         <span class="header__nav-close-line"></span>
                         <span class="header__nav-close-line"></span>
@@ -87,12 +89,68 @@
                 </div>
             </div>
         </div>
-        <form action="https://rs.school/">
+        <form action="#!">
         <button class="btn">Login</button>
         </form>
         </header>
-    <main>
+        <main>
         <section>
+
+
+         <!-- popup menu -->
+            
+            <div class="popup__bg">
+                <form class="popup" id="popup_id">
+                    <div class="log_popup" id="log_popup_id">Log in to your account</div>
+                    <button class="facebook_popup" id="facebook_popup_id">Sign In with Facebook</button>
+                    <a href="#!" id="facebook_one_id" class="facebook_one">
+                        <img src="../travel/svg/facebook_popup.svg" alt="facebook" class="facebook_popup_svg">
+                    </a>
+                    <button class="google_popup" id="google_popup_id">Sign In with Google</button>
+                    <a href="#!" id="google_one_id" class="google_one">
+                        <img src="../travel/svg/google_popup.svg" alt="google" class="google_popup_svg">
+                    </a>
+                    <label>
+                        <a href="#!" id="line_left_popup_id" class="line_left_popup">
+                            <img src="../travel/svg/line_left_popup.svg" alt="line_left" class="line_left_popup_svg">
+                        </a>
+
+                        <a href="#!" id="line_right_popup_id" class="line_right_popup">
+                            <img src="../travel/svg/line_right_popup.svg" alt="line_right" class="line_right_popup_svg">
+                        </a>
+                        <div class="or_popup" id="or_popup_id">or</div>
+                        <input type="text" id="email_popup_id" name="name" class="email_popup">
+                        <div class="label__text_email" id="label__text_email_id">
+                            E-mail
+                        </div>
+                    </label>
+                    <label>
+                        <input type="text" id="password_popup_id"name="password" class="password_popup">
+                        <div class="label__text_password" id="label__text_password_id">
+                            Password
+                        </div>
+                    </label>
+                   
+                    <button type="submit" id="sign_in_popup_id" class="sign_in_popup">Sign In</button>
+                    <a href="http://www.google.com" class="forgot_your_password" id="forgot_your_password_id">Forgot Your Password?</a>
+                    <a href="#!" class="line_popup" id="line_popup_id">
+                        <img src="../travel/svg/line_popup.svg" alt="line_popup" class="line_popup_svg">
+                    </a>
+                    <div class="account_popup" id="account_popup_id">Don’t have an account?</div> 
+                    <div class="register_popup" id = "register_popup_id" onclick="startsignpopup()">Register</div>
+
+                </form>
+            </div>  
+
+ <!-- popup menu end-->
+
+ <!-- sign up menu -->
+
+
+
+ <!-- sign up menu end-->
+
+          
        <h1 class="explore_the_beauty">Explore the beauty of the World</h1>
         <h3 class="receive">Receive personalized recommendations for countries, hotels, activities and more</h3>
         </section>
@@ -128,19 +186,49 @@
     </section>
             <section>
         <h2 class="popular_destinations">POPULAR DESTINATIONS</h2>
-        <div class="japan_logo">
-        <img src="../travel/img/japan.jpg" alt="Japan">
-        <h3 class="text_japan">JAPAN</h3>
-    </div>
-    <div class="usa_logo">
-        <img src="../travel/img/usa_.jpg" alt="USA">
-        <h3 class="text_usa">USA</h3>
-    </div>
+        <!--------Slider------->
+
+
+        <div class="carousel">
+            <div class="items-container">
+              <div class="item active">
+                <div class="description">
+                  
+                  <img class="project-image spain_logo card" src="../travel/img/spain.jpg" alt="project">
+                </div>
+              </div>
+              <div class="item">
+                <div class="description">
+                 
+                  <img class="project-image japan_logo card" src="../travel/img/japan.jpg" alt="project">
+                   <h3 class="text_japan">JAPAN</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="description">
+                 
+                  <img class="project-image usa_logo card" src="../travel/img/usa.jpg" alt="project">
+                <h3 class="text_usa">USA</h3>
+                </div>
+              </div>
+            </div>
+            <div class="control left">
+              
+            </div>
+            <div class="control right">
+            
+            </div>
+          </div>
+    
+    <!---------Slider end------->
+
+    
 
     <div id ="spain_logo_id" class="spain_logo">
         <img src="../travel/img/spain.jpg" alt="SPAIN">
     </div>
    
+
    <div class="arrow">
     <div class="arrow_left"></div>
     <div class="arrow_right"></div>
@@ -148,11 +236,12 @@
     <div class="spain_mobile_text">SPAIN</div>
     </div>
     </section>
-    <div class="circle">
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-    <div class="circle3"></div>
+   <div class="circle dots-wrapper">
+    <button class="circle1 dot" id="dot"></button>
+    <button class="circle2 dot" id="dot"></button>
+    <button class="circle3 dot active" id="dot"></button>
     </div>
+
     <form class="btn3" action="https://rs.school/">
         <button class="btn_find_more">Find More</button>
       </form>
@@ -232,6 +321,7 @@
                         <img src="../travel/svg/twitter.svg" alt="www.twitter.com" class="footer__logo-twitter">
                     </a>     
                     </div>    
+                    </div>
         </div>
         <script src="main.js"></script>
         <script src="btn.js"></script>
@@ -239,7 +329,26 @@
         <script src="scrolltext.js"></script>
         <script src="scrolltext1.js"></script>
         <script src="scrolltext2.js"></script>
+
+
+        <script src="close.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="popup.js"></script>   
+        <script src="alert.js"></script>
+        <script src="signup.js"></script>  
+       <!--Swiper
+       <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+       <script src="swiper.js"></script>
+       -->
+
+       <!--Slider-->
+       <script src="slider.js"></script>       
+    </footer>
+
+
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
         </footer>
+
 </body>
 </html>
