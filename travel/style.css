@@ -1696,13 +1696,14 @@ line-height: 19px;
 color: #F2785C;
 
 }
+/*new top*/
 .spain_mobile{
     background-image: url(../travel/img/spain_mobile.jpg);
     position: absolute;
     width: 360px;
     height: 210px;
     left: 15px;
-    top: -1083px;
+    top: -964px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 16px;
@@ -1716,7 +1717,7 @@ color: #F2785C;
     position: absolute;
     width: 60px;
     height: 26px;
-    margin-top: -1676px;
+    margin-top: -1554px;
     margin-left: 32px;
     font-family: 'Red Hat Text';
     font-style: normal;
