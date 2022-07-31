@@ -16,10 +16,32 @@ window.onload  = function(){
 };
 //---------------Clock end--------------//
 //---------------Date-------------------//
-const date = new Date();
-const options = {month: 'long', day: 'numeric'};
-const currentDate = date.toLocaleDateString('de-De', options);
-document.getElementById("date").innerHTML = date;
-console.log(currentDate);
+var date = new Date();
 
+var options = {
+  month: 'long',
+  day: 'numeric',
+  weekday: 'long',
+  };
+
+document.getElementById("date").innerHTML = date.toLocaleString("en-US", options); // Wednesday, December 31
 //----------------Date end-------------//
+//----------------Day time-------------//
+var today = new Date()
+var curHr = today.getHours()
+var time = null;
+
+if (curHr < 12) {
+  var time = "Good Morning,";
+} else if (curHr < 18) {
+  var time = "Good Afternoon,";
+
+} else if (curHr < 24) {
+    var time = "Good Evening,";
+} else {
+  var time = "Good Night,";
+}
+
+document.getElementById("greeting").innerHTML = time;
+
+//----------------Day time end-------------//

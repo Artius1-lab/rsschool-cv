@@ -201,11 +201,11 @@ body {
   letter-spacing: -4px;  
 }
 #clock{
-  color:#fff;
-  margin-top: 30vh;
-  font-weight:bold;
-  font-size:20vh;
-  
+  color: #fff;
+  margin-top: -4vh;
+  font-weight: bold;
+  font-size: 12vh;
+
 }
 .date {
   min-height: 28px;
