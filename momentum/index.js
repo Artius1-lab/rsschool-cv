@@ -72,54 +72,107 @@ var block = document.getElementById('body_');
 
 var timeOfDay;            
 
-if(hourNow >= 18) {
-    timeOfDay = 1;
-} else if (hourNow >= 12) {
-    timeOfDay = 2;
-} else if (hourNow > 0) {
-    timeOfDay = 3;
-} else {
+if (hourNow>=6 && hourNow < 12) {//с 6:00 до 11:59 - Good morning / Доброе утро / Добрай раніцы
     timeOfDay = 0;
-}
+  } else if (hourNow>=12 && hourNow < 18) {//с 12:00 до 17:59 - Good afternoon / Добрый день / Добры дзень
+    timeOfDay = 2;
+    }  else if(hourNow>=18 && hourNow<24){//с 18:00 до 23:59 - Good evening / Добрый вечер / Добры вечар
+        timeOfDay = 1;
+    }else {
+        timeOfDay = 3;//с 00:00 до 5:59 - Good night / Доброй/Спокойной ночи / Дабранач
+  }
+
+
+
+
+//if(hourNow >= 18) {
+  //  timeOfDay = 1;
+//} else if (hourNow >= 12) {
+   // timeOfDay = 2;
+//} else if (hourNow > 0) {
+   // timeOfDay = 3;
+//} else {
+ //   timeOfDay = 0;
+//}
 
 // Randomize 3 images            
-var rnd = Math.floor(Math.random() * (4 - 1) + 1); // Returns a random number between 1 (inclusive) and 4 (exclusive)
+var rnd = Math.floor(Math.random() * (21 - 1) + 1); // Returns a random number between 1 (inclusive) and 21 (exclusive)
 
 switch (timeOfDay) {
     case 1: // Evening
         switch (rnd) {
-            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg')"; break;
-            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
-            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/20.jpg')"; break;
+            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/01.jpg')"; break;
+            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/02.jpg')"; break;
+            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/03.jpg')"; break;
+            case 4: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/04.jpg')"; break;
+            case 5: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/05.jpg')"; break;
+            case 6: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/06.jpg')"; break;
+            case 7: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/07.jpg')"; break;
+            case 8: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/08.jpg')"; break;
+            case 9: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/09.jpg')"; break;
+            case 10: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/10.jpg')"; break;
+            case 11: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/11.jpg')"; break;
+            case 12: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/12.jpg')"; break;
+            case 13: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/13.jpg')"; break;
+            case 14: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/14.jpg')"; break;
+            case 15: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/15.jpg')"; break;
+            case 16: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/16.jpg')"; break;
+            case 17: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/17.jpg')"; break;
+            case 18: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg')"; break;
+            case 19: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
+            case 20: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/20.jpg')"; break;
         } 
         break;
     case 2: // Afternoon
       
         switch (rnd) {
-            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg')"; break;
-            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
-            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/20.jpg')"; break;
-
-            
+            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/01.jpg')"; break;
+            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/02.jpg')"; break;
+            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/03.jpg')"; break;
+            case 4: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/04.jpg')"; break;
+            case 5: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/05.jpg')"; break;
+            case 6: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/06.jpg')"; break;
+            case 7: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/07.jpg')"; break;
+            case 8: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/08.jpg')"; break;
+            case 9: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/09.jpg')"; break;
+            case 10: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/10.jpg')"; break;
+            case 11: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/11.jpg')"; break;
+            case 12: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/12.jpg')"; break;
+            case 13: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/13.jpg')"; break;
+            case 14: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/14.jpg')"; break;
+            case 15: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/15.jpg')"; break;
+            case 16: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/16.jpg')"; break;
+            case 17: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/17.jpg')"; break;
+            case 18: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/18.jpg')"; break;
+            case 19: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/19.jpg')"; break;
+            case 20: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/afternoon/20.jpg')"; break;
         } 
         break;
     case 0: // Morning
 
         switch (rnd) {
-            case 1: document.write('<img src="MorningImage1.jpg" />'); break;
-            case 2: document.write('<img src="MorningImage2.jpg" />'); break;
-            case 3: document.write('<img src="MorningImage1.jpg" />'); break;
+            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
+            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
+            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/20.jpg')"; break;
         } 
         break;
+
     default: // Generic
-        
         switch (rnd) {
-            case 1: document.write('<img src="GenericImage1.jpg" />'); break;
-            case 2: document.write('<img src="GenericImage2.jpg" />'); break;
-            case 3: document.write('<img src="GenericImage1.jpg" />'); break;
+            case 1: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg')"; break;
+            case 2: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/19.jpg')"; break;
+            case 3: block.style.backgroundImage = "url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/20.jpg')"; break;
         }
         break;
 } 
 
+document.getElementById("next").addEventListener("click", () => {
+
+
+});
+
+document.getElementById("prev").addEventListener("click", () => {
+   
+}); 
 
 //---------------------------- Background images end------------------------//
