@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <title>momentum</title>
 </head>
-<body>
+<body id="body_">
   <header class="header">
     <div class="player">
       <div class="player-controls">
@@ -32,23 +32,28 @@
   </header>
   <main class="main">
     <div class="slider-icons">
-      <button class="slide-prev slider-icon"></button>
-      <button class="slide-next slider-icon"></button>
+      <button class="slide-prev slider-icon" id="prev"></button>
+      <button class="slide-next slider-icon" id="next"></button>
     </div>
-    <time class="time"></time>
-    <date class="date"></date>
+    <time class="time" id="clock"></time>
+    <date class="date" id="date"></date>
     <div class="greeting-container">
-      <span class="greeting"></span>
-      <input type="text" class="name" />
+      <span class="greeting" id="greeting"></span>
+      <input type="text" class="name" id="name_" placeholder="[Enter name]">
     </div>
   </main>
   <footer class="footer">
-    <button class="change-quote"></button>
+    <button class="change-quote" id="change-quote-id"></button>
     <div>
-      <div class="quote"></div>
-      <div class="author"></div>
-    </div>
+      <div class="quote-text" id="quote-text-id"></div>
+      <div class="author" id="author-id"></div>
+
+
+      </div>
   </footer>
   <script src="js/script.js"></script>
+  <script src="index.js"></script>
+  <script src="weather.js"></script>
+  <script src="quotes.js"></script>
 </body>
 </html>

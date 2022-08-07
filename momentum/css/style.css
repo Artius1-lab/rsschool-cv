@@ -200,7 +200,13 @@ body {
   font-size: 100px;
   letter-spacing: -4px;  
 }
+#clock{
+  color: #fff;
+  margin-top: -4vh;
+  font-weight: bold;
+  font-size: 12vh;
 
+}
 .date {
   min-height: 28px;
   font-size: 24px;
@@ -282,5 +288,10 @@ body {
   .name {
     font-size: 32px;
     padding: 5px;
-  }
+
+ }
+
+ 
+
+
 }
