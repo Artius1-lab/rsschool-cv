@@ -226,3 +226,4 @@ document.querySelector("body").style.background = image[i];
 }); 
 
 //---------------------------- Background images end------------------------//
+
