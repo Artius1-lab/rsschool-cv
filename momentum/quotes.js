@@ -20,9 +20,10 @@ const showQuotes = () => {
 	});
 };
 
-window.onload = () => {
-	showQuotes();
-};
+//window.onload = () => {
+showQuotes();
+//};
+
 
 document.getElementById("change-quote-id").addEventListener("click", () => {
     showQuotes();

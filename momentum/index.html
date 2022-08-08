@@ -13,13 +13,13 @@
     <div class="player">
       <div class="player-controls">
         <button class="play-prev player-icon"></button>
-        <button class="play player-icon"></button>
+        <button class="play player-icon" id="play-id"></button>
         <button class="play-next player-icon"></button>
       </div>
       <ul class="play-list"></ul>
     </div>
     <div class="weather">
-      <input type="text" class="city" />
+      <input type="text" class="city" id="city-id"/>
       <i class="weather-icon owf"></i>
       <div class="weather-error"></div>
       <div class="description-container">
@@ -35,12 +35,14 @@
       <button class="slide-prev slider-icon" id="prev"></button>
       <button class="slide-next slider-icon" id="next"></button>
     </div>
-    <time class="time" id="clock"></time>
+    
+    <time class="time" id="timer"></time>
     <date class="date" id="date"></date>
     <div class="greeting-container">
       <span class="greeting" id="greeting"></span>
       <input type="text" class="name" id="name_" placeholder="[Enter name]">
     </div>
+    
   </main>
   <footer class="footer">
     <button class="change-quote" id="change-quote-id"></button>
@@ -52,8 +54,10 @@
       </div>
   </footer>
   <script src="js/script.js"></script>
+  <script src="clock.js"></script>
   <script src="index.js"></script>
   <script src="weather.js"></script>
   <script src="quotes.js"></script>
+  <script type="module" src="audio.js"></script>
 </body>
 </html>

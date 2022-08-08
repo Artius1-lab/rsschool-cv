@@ -291,7 +291,11 @@ body {
 
  }
 
- 
+ #timer {
+ color:white;
+font-size: 100px;
+
+ }
 
 
 }
