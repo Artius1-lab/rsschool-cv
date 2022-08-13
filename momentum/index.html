@@ -10,14 +10,46 @@
 </head>
 <body id="body_">
   <header class="header">
-    <div class="player">
+    <div class="player" id="player">
       <div class="player-controls">
-        <button class="play-prev player-icon"></button>
+        <button class="play-prev player-icon" id="play-prev-id"></button>
         <button class="play player-icon" id="play-id"></button>
-        <button class="play-next player-icon"></button>
-      </div>
+        <button class="play-next player-icon" id="play-next-id"></button>
+       
+         </div>
+
+
       <ul class="play-list"></ul>
+      <li class = "play-item" data-mp3="assets/sounds/Aqua Caelestis.mp3">Aqua Caelestis</li>
+      <li class = "play-item" data-mp3="assets/sounds/River Flows In You.mp3">River Flows In You</li>
+      <li class = "play-item" data-mp3="assets/sounds/Ennio Morricone.mp3">Ennio Morricone</li>
+      <li class = "play-item" data-mp3="assets/sounds/Summer Wind.mp3">Summer Wind</li>
+  
     </div>
+
+ 
+    <div class="lang lang_fixed">
+      <div id="ytWidget" style="display: none;"></div>
+      <div class="lang__link lang__link_select" data-lang-active>
+          <img class="lang__img lang__img_select" src="./images/lang/lang__ru.png" alt="Ru">
+      </div>
+      <div class="lang__list" data-lang-list>
+          <a class="lang__link lang__link_sub" data-ya-lang="ru">
+              <img class="lang__img" src="./images/lang/lang__ru.png" alt="ru">
+          </a>
+          <a class="lang__link lang__link_sub" data-ya-lang="en">
+              <img class="lang__img" src="./images/lang/lang__en.png" alt="en">
+          </a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
     <div class="weather">
       <input type="text" class="city" id="city-id"/>
       <i class="weather-icon owf"></i>
@@ -59,5 +91,6 @@
   <script src="weather.js"></script>
   <script src="quotes.js"></script>
   <script type="module" src="audio.js"></script>
+  <script src="yatranslate.js"></script>
 </body>
 </html>

@@ -6,6 +6,8 @@ const humidity = document.querySelector('.humidity');
 const weatherDescription = document.querySelector('.weather-description');
 const city = document.querySelector('.city');
 
+
+
 city.value="Minsk";
 
 async function getWeather() {
@@ -35,4 +37,6 @@ city.addEventListener('keypress', setCity);
 
 //-----------------------Weather end-------------------//
 
-// -----------------Input--------------------//
+// -----------------Input type weather--------------------//
+
+//------------------Input type weather end---------------//
