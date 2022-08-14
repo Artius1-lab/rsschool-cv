@@ -15,8 +15,7 @@
         <button class="play-prev player-icon" id="play-prev-id"></button>
         <button class="play player-icon" id="play-id"></button>
         <button class="play-next player-icon" id="play-next-id"></button>
-       
-         </div>
+        </div>
 
 
       <ul class="play-list"></ul>
@@ -28,26 +27,12 @@
     </div>
 
  
-    <div class="lang lang_fixed">
-      <div id="ytWidget" style="display: none;"></div>
-      <div class="lang__link lang__link_select" data-lang-active>
-          <img class="lang__img lang__img_select" src="./images/lang/lang__ru.png" alt="Ru">
-      </div>
-      <div class="lang__list" data-lang-list>
-          <a class="lang__link lang__link_sub" data-ya-lang="ru">
-              <img class="lang__img" src="./images/lang/lang__ru.png" alt="ru">
-          </a>
-          <a class="lang__link lang__link_sub" data-ya-lang="en">
-              <img class="lang__img" src="./images/lang/lang__en.png" alt="en">
-          </a>
-          </div>
-        </div>
-
-
-
-
-
-
+    
+    <div class="language">
+      <img src="assets/img/lang_ru.png" alt="ru" data-google-lang="ru" class="language__img">
+      <img src="assets/img/lang_en.png" alt="en" data-google-lang="en" class="language__img">
+     
+  </div>
 
 
     <div class="weather">
@@ -91,6 +76,7 @@
   <script src="weather.js"></script>
   <script src="quotes.js"></script>
   <script type="module" src="audio.js"></script>
-  <script src="yatranslate.js"></script>
+  <script src="translate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 </body>
 </html>
