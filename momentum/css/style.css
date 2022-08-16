@@ -296,6 +296,37 @@ body {
 font-size: 100px;
 
  }
+
+
+
+
+
+
+
+
+
+
+
+.settings{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.checkboxes{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  list-style-type: none;
+  margin-left:200px;
+}
+
+.checkbox-group-date{
+  list-style-type: none;
+  margin-left:100px;
+  margin-top:10px;
+
+}
+
 /*---------------------------------------------Example----------------------------------*/
 
 
