@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body id="body_">
+  <header class="header">
+    <div class="player" id="player-id">
+      <div class="player-controls">
+        <button class="play-prev player-icon" id="play-prev-id"></button>
+        <button class="play player-icon" id="play-id"></button>
+        <button class="play-next player-icon" id="play-next-id"></button>
+        </div>
+
+
+      <ul class="play-list" id="play-list-id"></ul>
+      <li class = "play-item" data-mp3="assets/sounds/Aqua Caelestis.mp3">Aqua Caelestis</li>
+      <li class = "play-item" data-mp3="assets/sounds/River Flows In You.mp3">River Flows In You</li>
+      <li class = "play-item" data-mp3="assets/sounds/Ennio Morricone.mp3">Ennio Morricone</li>
+      <li class = "play-item" data-mp3="assets/sounds/Summer Wind.mp3">Summer Wind</li>
+  
+    </div>
+
+ 
+    
+    <div class="language">
+      <img src="assets/img/lang_ru.png" alt="ru" data-google-lang="ru" class="language__img">
+      <img src="assets/img/lang_en.png" alt="en" data-google-lang="en" class="language__img">
+     
+  </div>
+
+
+    <div class="weather" id="weather-id">
+      <input type="text" class="city" id="city-id"/>
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon" id="prev"></button>
+      <button class="slide-next slider-icon" id="next"></button>
+    </div>
+    
+    <time class="time" id="timer"></time>
+    <date class="date" id="date"></date>
+    <div class="greeting-container" id="greeting-container-id">
+      <span class="greeting" id="greeting"></span>
+      <input type="text" class="name" id="name_" placeholder="[Enter name]">
+    </div>
+    
+    <div class="settings">
+      <form>
+        <ul class="checkboxes">
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_date(this.id)"/>Date
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_time(this.id)"/>Time
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_greeting(this.id)"/>Greeting
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_weather(this.id)"/>Weather
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_audio(this.id)"/>Music
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_quotes(this.id)"/>Quotes
+          <input type="checkbox" name="checkfield" id="time-checkbox"  onchange="doalert_flickr(this.id)"/>Flickr
+        </ul>
+        </form>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <button class="change-quote" id="change-quote-id"></button>
+    <div class="quotes" id="quotes-id">
+      <div class="quote-text" id="quote-text-id"></div>
+      <div class="author" id="author-id"></div>
+      </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="clock.js"></script>
+  <script src="index.js"></script>
+  <script src="weather.js"></script>
+  <script src="quotes.js"></script>
+  <script type="module" src="audio.js"></script>
+  <script src="translate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="settings.js"></script>
+  <script src="flickr.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>
