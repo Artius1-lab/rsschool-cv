@@ -4,10 +4,9 @@
     if (checkboxElem.checked) {
         
     } else {
-        
-       
+               
 (function() {
-    var flickerURL = "http://api.flickr.com/services/feeds/photos_public.gne?tags=nature&format=json&jsoncallback=?";
+    var flickerURL = "https://api.flickr.com/services/feeds/photos_public.gne?tags=nature&format=json&jsoncallback=?";
     $.getJSON(flickerURL)
       .done(function(data) {
         var div = document.getElementById("body_");
