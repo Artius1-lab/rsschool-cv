@@ -1,0 +1,154 @@
+.head{
+Width:1600px;
+Height:80px;
+background-color:black;
+}
+
+.rectangle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 61px;
+    top: 21px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.petStory{
+    box-sizing: border-box;
+    position: absolute;
+    width: 72.49px;
+    height: 44.91px;
+    left: 4.75px;
+    top: -12.45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+      
+
+}
+.bamboo{
+    position: absolute;
+    left: 78.23px;
+    top: 46.64px;
+
+}
+
+.about{
+position: absolute;
+width: 43px;
+height: 22px;
+left: 175px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #FFFFFF;
+}
+.map{
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 266px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+
+}
+.zoos{
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 346px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+
+
+}
+.donate{
+position: absolute;
+width: 51px;
+height: 22px;
+left: 430px;
+top: 29px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+/* orange */
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.contact_us{
+position: absolute;
+width: 77px;
+height: 22px;
+left: 529px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #FFFFFF;
+}
+
+.designed_by{
+
+position: absolute;
+width: 105px;
+height: 22px;
+left: 865px;
+top: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+
+}
+
