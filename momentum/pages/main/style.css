@@ -1,3 +1,10 @@
+body{
+margin: 0px;
+padding:0px;
+width: 1600px;
+height:4975px;
+
+}
 .head{
 Width:1600px;
 Height:80px;
@@ -151,4 +158,157 @@ line-height: 140%;
 color: #FFFFFF;
 
 }
+.panda_bg{
+    
+    height: 780px;
+    width: 1600px;
+    left: 0px;
+    right: 0px;
+    top: 88px;
+    background: url(/assets/images/panda_bg.jpg) no-repeat;
+    background-size: 1600px 780px;
+}
+.circle{
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: 806px;
+    top: 92px;
+    border-radius: 50%;
+    /* orange */
+    
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 
+}
+
+.watch_animal{
+position: absolute;
+width: 500.31px;
+height: 400px;
+left: calc(50% - 500.31px/2 + 330.15px);
+top: 166px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+/* or 80px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.favorite{
+color:#FFEE2E;
+}
+
+.btn1{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+top: 626px;
+color:white;
+/* orange */
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+
+
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.flower{
+    
+    position: absolute;
+    width: 293px;
+    height: 605px;
+    left: 1310px;
+    top: 876px;
+    background: url(/assets/images/flower.jpg) no-repeat;
+    background-size: 293px 605px;
+}
+
+.bamboo-cap{
+    position: absolute;
+    width: 609px;
+    height: 403px;
+    left: 98px;
+    top: 1012px;
+    background: url(/assets/images/bamboo-cap.jpg) no-repeat;
+}
+ 
+.backstage{
+    position: absolute;
+    height: 116px;
+    left: 837px;
+    right: 0px;
+    top: 1018px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+    
+.text_site{
+    position: absolute;
+    height: 42px;
+    left: 838px;
+    right: 0px;
+    top: 1157px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333B41;
+
+}
+.how_it_works{
+    position: absolute;
+    width: 217px;
+    height: 29px;
+    left: 838px;
+    top: 1253px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.nature{
+    position: absolute;
+    height: 105px;
+    left: 839px;
+    right: 0px;
+    top: 1329px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+
+}
