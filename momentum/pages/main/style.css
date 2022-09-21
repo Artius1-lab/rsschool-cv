@@ -165,7 +165,7 @@ color: #FFFFFF;
     left: 0px;
     right: 0px;
     top: 88px;
-    background: url(/assets/images/panda_bg.jpg) no-repeat;
+    background: url(../assets/images/panda_bg.jpg) no-repeat;
     background-size: 1600px 780px;
 }
 .circle{
@@ -243,7 +243,7 @@ color: #FFFFFF;
     height: 605px;
     left: 1310px;
     top: 876px;
-    background: url(/assets/images/flower.jpg) no-repeat;
+    background: url(../assets/images/flower.jpg) no-repeat;
     background-size: 293px 605px;
 }
 
@@ -253,7 +253,7 @@ color: #FFFFFF;
     height: 403px;
     left: 98px;
     top: 1012px;
-    background: url(/assets/images/bamboo-cap.jpg) no-repeat;
+    background: url(../assets/images/bamboo-cap.jpg) no-repeat;
 }
  
 .backstage{
