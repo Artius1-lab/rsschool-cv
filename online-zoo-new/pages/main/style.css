@@ -251,8 +251,8 @@ color: #FFFFFF;
     position: absolute;
     width: 609px;
     height: 403px;
-    left: 98px;
-    top: 1012px;
+    left: 218px;
+    top: 921px;
     background: url(../../assets/images/bamboo-cap.jpg) no-repeat;
 }
  
@@ -310,5 +310,369 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 140%;
     color: #333B41;
+
+}
+
+.pandas{
+   
+    position: absolute;
+    width: 366px;
+    height: 387px;
+    left: 220px;
+    top: 1504px;
+    background: url(../../assets/images/pandas.jpg) no-repeat;
+    
+}
+.giant_Pandas{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 11px;
+    top: 359px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.southwest_China{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 12px;
+    top: 380px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.bamboo_food{
+    z-index: 10;
+    Width: 12.61px;
+    Height: 35.16px;
+    position: absolute;
+    left: 561px;
+    right: 0px;
+    top: 1875px;
+    transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+    bottom: 4.97%;
+    background: url(../../assets/icons/bamboo_food.svg) no-repeat;
+
+}
+.banana_food{
+z-index: 11;
+position: absolute;
+left: 561px;
+right: 0px;
+top: 1875px;
+bottom: 12.85%;
+background-image: url(../../assets/icons/banana_food.svg) no-repeat;
+
+}
+
+.eagles{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 613px;
+    top: 1505px;
+background:url(../../assets/images/eagles.jpg) no-repeat;    
+}
+
+.eagles_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 14px;
+    top: 358px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.native{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 379px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.gorillas{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 1008px;
+    top: 1504px;
+background:url(../../assets/images/gorillas.jpg) no-repeat;
+}
+
+.gorillas_text{
+    position: absolute;
+width: 294px;
+height: 22px;
+left: 16px;
+top: 359px;
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+
+.congo{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 380px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    
+    
+    color: #000000;   
+}
+
+.two-toed{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 216px;
+    top: 1951px;
+    background: url(../../assets/images/two-toed.jpg);
+}
+
+.two-toed_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 357px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.mesoamerica{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 379px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.cheetahs{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 612px;
+    top: 1951px;
+    background:url(../../assets/images/cheetahs.jpg) no-repeat;
+}
+
+.cheetahs_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 358px;
+    
+    /* btn. */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-transform: uppercase;
+    
+    color: #000000; 
+}
+
+.africa_text{
+position: absolute;
+width: 294px;
+height: 18px;
+left: 16px;
+top: 378px;
+
+/* smallParagraph */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+
+color: #000000;
+
+}
+
+.penguins{
+    position: absolute;
+width: 366px;
+height: 366px;
+left: 1010px;
+top: 1951px;
+background: url(../../assets/images/penguins.jpg) no-repeat;
+}
+
+.penguins_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 358px;
+    
+    /* btn. */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.antarctica{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 378px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    border: 1px solid transparent;
+    
+    color: #000000;
+    
+
+}
+
+.circle1{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 134px;
+    top: 1908px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%
+    
+}
+
+.arrow_left{
+    position: absolute;
+    Width: 16px;
+    Height: 8px;
+    left: 163px;
+    right: 0px;
+    top: 1933px;
+    bottom: 30.65%;
+    background: url(../../assets/icons/arrows_left.svg) no-repeat;
+}
+
+.circle2{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 1400px;
+    top: 1908px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%
+    
+}
+
+.arrow_right{
+    position: absolute;
+    Width: 16px;
+    Height: 8px;
+    left: 1423px;
+    right: 0px;
+    top: 1933px;
+    bottom: 30.65%;
+    background: url(../../assets/icons/arrows_right.svg) no-repeat;
+    
+}
+
+.palm_foto{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 880px;
+    height: 460px;
+    left: 0px;
+    top: 2151px;
+    background:url(../../assets/images/palm_foto.jpg) no-repeat;
+   
+}
+.flower_foto{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 368px;
+    height: 275px;
+    right: 0px;
+    top: 2334px;
+    left: 1225px;
+    background: url(../../assets/images/flower_foto.jpg);
 
 }
