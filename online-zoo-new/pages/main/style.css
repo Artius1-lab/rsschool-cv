@@ -16,8 +16,8 @@ background-color:black;
     position: absolute;
     width: 82px;
     height: 52px;
-    left: 61px;
-    top: 21px;
+    left: 216px;
+    top: 14px;
     border: 1px solid #FFFFFF;
     border-radius: 2px;
 }
@@ -41,8 +41,8 @@ background-color:black;
 }
 .bamboo{
     position: absolute;
-    left: 78.23px;
-    top: 46.64px;
+    left: 226.23px;
+    top: 36.64px;
 
 }
 
@@ -50,7 +50,7 @@ background-color:black;
 position: absolute;
 width: 43px;
 height: 22px;
-left: 175px;
+left: 361px;
 top: 29px;
 
 font-family: 'Roboto';
@@ -66,7 +66,7 @@ color: #FFFFFF;
     position: absolute;
     width: 32px;
     height: 22px;
-    left: 266px;
+    left: 461px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -84,7 +84,7 @@ color: #FFFFFF;
     position: absolute;
     width: 36px;
     height: 22px;
-    left: 346px;
+    left: 552px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -103,7 +103,7 @@ color: #FFFFFF;
 position: absolute;
 width: 51px;
 height: 22px;
-left: 430px;
+left: 646px;
 top: 29px;
 font-family: 'Roboto';
 font-style: normal;
@@ -126,7 +126,7 @@ text-fill-color: transparent;
 position: absolute;
 width: 77px;
 height: 22px;
-left: 529px;
+left: 755px;
 top: 29px;
 
 font-family: 'Roboto';
@@ -144,7 +144,7 @@ color: #FFFFFF;
 position: absolute;
 width: 105px;
 height: 22px;
-left: 865px;
+left: 1270px;
 top: 29px;
 
 font-family: 'Roboto';
@@ -182,23 +182,19 @@ color: #FFFFFF;
 }
 
 .watch_animal{
-position: absolute;
-width: 500.31px;
-height: 400px;
-left: calc(50% - 500.31px/2 + 330.15px);
-top: 166px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 106.496px;
-line-height: 75%;
-/* or 80px */
-
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
+    position: absolute;
+    width: 500.31px;
+    height: 400px;
+    left: 873px;
+    top: 166px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .favorite{
@@ -209,14 +205,14 @@ color:#FFEE2E;
 position: absolute;
 width: 298px;
 height: 54px;
-left: calc(50% - 298px/2 + 332px);
+left: 987px;
 top: 626px;
 color:white;
 /* orange */
 
 background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 border-radius: 25px;
-
+border:none;
 
 
 /* btn. */
@@ -251,17 +247,17 @@ color: #FFFFFF;
     position: absolute;
     width: 609px;
     height: 403px;
-    left: 98px;
-    top: 1012px;
+    left: 218px;
+    top: 921px;
     background: url(../../assets/images/bamboo-cap.jpg) no-repeat;
 }
  
 .backstage{
     position: absolute;
     height: 116px;
-    left: 837px;
+    left: 910px;
     right: 0px;
-    top: 1018px;
+    top: 922px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -273,9 +269,9 @@ color: #FFFFFF;
 .text_site{
     position: absolute;
     height: 42px;
-    left: 838px;
+    left: 911px;
     right: 0px;
-    top: 1157px;
+    top: 1046px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -288,8 +284,8 @@ color: #FFFFFF;
     position: absolute;
     width: 217px;
     height: 29px;
-    left: 838px;
-    top: 1253px;
+    left: 911px;
+    top: 1133px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -301,9 +297,678 @@ color: #FFFFFF;
 .nature{
     position: absolute;
     height: 105px;
-    left: 839px;
+    left: 911px;
     right: 0px;
-    top: 1329px;
+    top: 1202px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgb(51, 59, 65);
+
+}
+
+.pandas{
+   
+    position: absolute;
+    width: 366px;
+    height: 387px;
+    left: 220px;
+    top: 1504px;
+    background: url(../../assets/images/pandas.jpg) no-repeat;
+    
+}
+.giant_Pandas{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 11px;
+    top: 359px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.southwest_China{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 12px;
+    top: 380px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.bamboo_food{
+    z-index: 10;
+    Width: 12.61px;
+    Height: 35.16px;
+    position: absolute;
+    left: 561px;
+    right: 0px;
+    top: 1875px;
+    transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+    bottom: 4.97%;
+    background: url(../../assets/icons/bamboo_food.svg) no-repeat;
+
+}
+.banana_food{
+z-index: 11;
+position: absolute;
+left: 561px;
+right: 0px;
+top: 1875px;
+bottom: 12.85%;
+background-image: url(../../assets/icons/banana_food.svg) no-repeat;
+
+}
+
+.eagles{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 613px;
+    top: 1505px;
+background:url(../../assets/images/eagles.jpg) no-repeat;    
+}
+
+.eagles_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 14px;
+    top: 358px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.native{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 379px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.gorillas{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 1008px;
+    top: 1504px;
+background:url(../../assets/images/gorillas.jpg) no-repeat;
+}
+
+.gorillas_text{
+    position: absolute;
+width: 294px;
+height: 22px;
+left: 16px;
+top: 359px;
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+
+.congo{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 380px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    
+    
+    color: #000000;   
+}
+
+.two-toed{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 216px;
+    top: 1951px;
+    background: url(../../assets/images/two-toed.jpg);
+}
+
+.two-toed_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 357px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.mesoamerica{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 379px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.cheetahs{
+    position: absolute;
+    width: 366px;
+    height: 366px;
+    left: 612px;
+    top: 1951px;
+    background:url(../../assets/images/cheetahs.jpg) no-repeat;
+}
+
+.cheetahs_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 358px;
+    
+    /* btn. */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-transform: uppercase;
+    
+    color: #000000; 
+}
+
+.africa_text{
+position: absolute;
+width: 294px;
+height: 18px;
+left: 16px;
+top: 378px;
+
+/* smallParagraph */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+
+color: #000000;
+
+}
+
+.penguins{
+    position: absolute;
+width: 366px;
+height: 366px;
+left: 1010px;
+top: 1951px;
+background: url(../../assets/images/penguins.jpg) no-repeat;
+}
+
+.penguins_text{
+    position: absolute;
+    width: 294px;
+    height: 22px;
+    left: 16px;
+    top: 358px;
+    
+    /* btn. */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.antarctica{
+    position: absolute;
+    width: 294px;
+    height: 18px;
+    left: 16px;
+    top: 378px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    border: 1px solid transparent;
+    
+    color: #000000;
+    
+
+}
+
+.circle1{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 134px;
+    top: 1908px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%
+    
+}
+
+.arrow_left{
+    position: absolute;
+    Width: 16px;
+    Height: 8px;
+    left: 163px;
+    right: 0px;
+    top: 1933px;
+    bottom: 30.65%;
+    background: url(../../assets/icons/arrows_left.svg) no-repeat;
+}
+
+.circle2{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 1400px;
+    top: 1908px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%
+    
+}
+
+.arrow_right{
+    position: absolute;
+    Width: 16px;
+    Height: 8px;
+    left: 1423px;
+    right: 0px;
+    top: 1933px;
+    bottom: 30.65%;
+    background: url(../../assets/icons/arrows_right.svg) no-repeat;
+    
+}
+
+.palm_foto{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 880px;
+    height: 460px;
+    left: 0px;
+    top: 2151px;
+    background:url(../../assets/images/palm_foto.jpg) no-repeat;
+   
+}
+.flower_foto{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 368px;
+    height: 275px;
+    right: 0px;
+    top: 2334px;
+    left: 1225px;
+    background: url(../../assets/images/flower_foto.jpg);
+
+}
+
+.btn2{
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 648px;
+    top: 2455px;
+    
+    /* or3 */
+    
+    background: #FE9013;
+    border-radius: 25px;
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border:none;
+}
+
+.section_pick_and_feed{
+position: absolute;
+height: 1004px;
+width: 1600px;
+left: 0px;
+right: 0px;
+top: 2611px;
+
+/* orange_gradient */
+
+background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+opacity: 0.9;
+}
+
+.section_in_pick_and_feed{
+    position: absolute;
+    height: 835px;
+    left: 220px;
+    right: 220px;
+    top: 69px;
+    
+    /* frosted_glass_white */
+    
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+
+}
+.pick_and_feed_text_h3{
+    position: absolute;
+    width: 463px;
+    height: 58px;
+    left: 346px;
+    top: -7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+
+.we_know_the_animals_h3{
+    position: absolute;
+    width: 1000px;
+    height: 29px;
+    left: 94px;
+    top: 105px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.during_a_time_h3{
+    position: absolute;
+    height: 42px;
+    width: 1003px;
+    left: 95px;
+    right: 108px;
+    top: 181px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333B41;
+}
+
+.even_though_h3{
+    position: absolute;
+    height: 42px;
+    left: 95px;
+    right: 98px;
+    top: 212px;
+    width: 872px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgb(51, 59, 65);
+
+}
+.how_it_works_h3{
+    position: absolute;
+    width: 209px;
+    height: 47px;
+    left: -441px;
+    top: -834px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #333B41;
+}
+.pay_with_card{
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 192px;
+    top: 419px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: #F9804B solid 1px;
+}
+
+.pay_with_card_image{
+    position: absolute;
+    width: 113px;
+    height: 108px;
+    left: 31px;
+    top: 54px;
+    background: #333B41;
+
+background:url(../../assets/icons/pay.svg) no-repeat;
+}
+
+.big_arrow_right1{
+    position: absolute;
+    width: 69px;
+    height: 35.08px;
+    left: 390px;
+    top: 480.52px;
+    background: #333B41;
+    transform: rotate(90);
+    background:url(../../assets/icons/big_arrow_right1.svg) no-repeat;
+}
+
+.payment{
+    box-sizing: border-box;
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 492px;
+    top: 419px;
+    border: #F9804B solid 1px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.hand{
+    position: absolute;
+    width: 80.25px;
+    height: 28.94px;
+    left: 40.47px;
+    top: 102.06px;
+    transform: rotate(90);
+background:url(../../assets/icons/hand.svg) no-repeat;
+}
+
+.tree{
+    position: absolute;
+    width: 10.22px;
+    height: 51.18px;
+    left: 70.55px;
+    top: 58.88px;
+    background: #333B41;
+    transform: rotate(90);
+    background: url(../../assets/icons/tree.svg) no-repeat;
+}
+.leaf1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 17.6px;
+    height: 17.84px;
+    left: 76.76px;
+    top: 80.76px;
+    transform: rotate(90);
+    background: url(../../assets/icons/leaf1.svg) no-repeat;
+}
+
+.leaf2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 15.34px;
+    height: 15.52px;
+    left: 60.55px;
+    top: 64.24px;
+    transform: rotate(90);
+    background: url(../../assets/icons/leaf2.svg) no-repeat;
+}
+
+.leaf3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13.17px;
+    height: 13.41px;
+    left: 78.93px;
+    top: 55.5px;
+    transform: rotate(90);
+    background: url(../../assets/icons/leaf3.svg) no-repeat;
+}
+.dollar{
+    position: absolute;
+    width: 8.41px;
+    height: 16.82px;
+    left: 73.18px;
+    top: 38px;
+    
+    background: url(../../assets/icons/dollar.svg) no-repeat;
+}
+.big_arrow_right2{
+    position: absolute;
+    width: 69px;
+    height: 38.08px;
+    left: 689px;
+    top: 476px;
+    transform: rotate(90);
+    background:url(../../assets/icons/big_arrow_right2.svg) no-repeat;
+}
+.your_favorite_animal{
+    box-sizing: border-box;
+    position: absolute;
+    width: 168px;
+    height: 168px;
+
+    left: 790px;
+    top: 418px;
+    border: #F9804B solid 1px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.bananas{
+    position: absolute;
+    width: 49.48px;
+    height: 32.31px;
+    left: 20px;
+    top: 85.45px;
+background: url(../../assets/icons/bananas.svg) no-repeat;
+
+}
+.monkey{
+    position: absolute;
+    width: 78.21px;
+    height: 71.6px;
+    left: 68.54px;
+    top: 48px;
+    
+  background: url(../../assets/icons/monkey.svg);
+}
+.pay_with_card_text{
+    position: absolute;
+    width: 168px;
+    height: 46px;
+    left: 194px;
+    top: 601px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+/* or 22px */
+
+}
+.payment_text_h3{
+    position: absolute;
+    width: 168px;
+    height: 46px;
+    left: 492px;
+    top: 600px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -311,4 +976,482 @@ color: #FFFFFF;
     line-height: 140%;
     color: #333B41;
 
+}
+.your_fovorite_animal_text_h3{
+    position: absolute;
+    width: 168px;
+    height: 46px;
+    left: 789px;
+    top: 601px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+
+}
+
+.btn3{
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 429px;
+    top: 721px;
+    background: #FE9013;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.testimonials_text{
+    position: absolute;
+    width: 206px;
+    height: 47px;
+    left: 693px;
+    top: 3719px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #333B41;
+
+}
+.michael_john{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 391px;
+    left: 214px;
+    top: 3849px;
+    background: #F1F3F2;
+    border-radius: 20px;
+    border: #F9804B solid 1px;
+
+}
+.michael_john_avatar{
+    position: absolute;
+    left: 16px;
+    right: 0px;
+    top: 14px;
+    bottom: 0px;
+    height: 37px;
+    width: 37px;
+    background:url(../../assets/icons/michael_john_avatar.svg) no-repeat;
+
+}
+.michael_john_name_text{
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 63px;
+    top: -1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+
+}
+.michael_john_local_text{
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 63px;
+    top: 21px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Gray 4 */
+    
+    color: #BDBDBD; 
+}
+.michael_john_day_h3{
+position: absolute;
+width: 41px;
+height: 18px;
+left: 166px;
+top: 19px;
+
+/* smallParagraph */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+.michael_john_text_h3{
+    position: absolute;
+    width: 235px;
+    height: 309px;
+    left: 16px;
+    top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+
+}
+
+.oskar_samborsky{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 391px;
+    left: 513px;
+    top: 3849px;
+    border: #F9804B solid 1px;
+    background: #F1F3F2;
+    border-radius: 20px;
+}
+
+.oskar_samborsky_avatar{
+    position: absolute;
+width: 37px;
+height: 37px;
+left: 16px;
+top: 15px;
+background: url(../../assets/icons/oskar_samborsky_avatar.svg) no-repeat;
+
+}
+
+.oskar_samborsky_name_text{
+    position: absolute;
+    width: 126px;
+    height: 19px;
+    left: 63px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    
+    color: #000000; 
+}
+
+.oskar_samborsky_local_text{
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 63px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+}
+.oskar_samborsky_day_h3{
+    
+position: absolute;
+width: 65px;
+height: 18px;
+left: 166px;
+top: 20px;
+
+/* smallParagraph */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+/* identical to box height, or 18px */
+
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+
+.oskar_samborsky_text_h3{
+    position: absolute;
+    width: 237px;
+    height: 309px;
+    left: 15px;
+    top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+}
+
+.fredericka_michelin{
+
+    box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 391px;
+left: 811px;
+top: 3849px;
+
+/* gray_light */
+border:#F9804B solid 1px;
+background: #F1F3F2;
+border-radius: 20px;
+}
+.fredericka_michelin_avatar{
+    position: absolute;
+width: 37px;
+height: 37px;
+left: 16px;
+top: 15px;
+background:url(../../assets/icons/fredericka_michelin_avatar.svg) no-repeat;
+}
+.fredericka_michelin_name_text{
+    position: absolute;
+    width: 139px;
+    height: 19px;
+    left: 61px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    
+
+}
+.fredericka_michelin_local_text{
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 63px;
+    top: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+}
+
+.fredericka_michelin_day_h3{
+    position: absolute;
+    width: 65px;
+    height: 18px;
+    left: 164px;
+    top: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+
+}
+
+.fredericka_michelin_text_h3{
+    position: absolute;
+    width: 237px;
+    height: 309px;
+    left: 15px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+}
+.mila_riksha{
+    box-sizing: border-box;
+    position: absolute;
+    width: 266px;
+    height: 391px;
+    left: 1109px;
+    top: 3849px;
+    border: #F9804B 1px solid;
+    background: #F1F3F2;
+    border-radius: 20px;  
+}
+
+
+
+.mila_riksha_avatar{
+position: absolute;
+width: 37px;
+height: 37px;
+left: 16px;
+top: 15px;
+background:url(../../assets/icons/mila_riksha_avatar.svg) no-repeat;
+}
+
+.mila_riksha_name_text{
+    position: absolute;
+width: 97px;
+height: 19px;
+left: 63px;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+color: #000000;
+}
+
+.mila_riksha_local_text{
+    position: absolute;
+    width: 94px;
+    height: 18px;
+    left: 63px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+}
+.mila_riksha_day_h3{
+    position: absolute;
+    width: 65px;
+    height: 18px;
+    left: 166px;
+    top: 20px;
+    
+    /* smallParagraph */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Gray 4 */
+    
+    color: #BDBDBD;
+
+}
+
+.mila_riksha_text_h3{
+    position: absolute;
+    width: 237px;
+    height: 309px;
+    left: 15px;
+    top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+
+}
+
+.btn4{
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 216px;
+    top: 4300px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.big_leaf_image{
+    position: absolute;
+    width: 246.92px;
+    height: 295.45px;
+    left: 1348.67px;
+    top: 4260.88px;
+    background: url(../../assets/images/big_leaf.jpg);
+    transform: rotate(90);
+    mix-blend-mode: multiply;
+
+}
+
+.footer_div{
+position: absolute;
+width:1600px;
+height: 443px;
+left:0px;
+right: 0px;
+bottom: 0px;
+top: 4534px;
+
+background: #111115;
+}
+
+.pet_story_online_footer_h2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 78.49px;
+    height: 51.91px;
+    left: 217.75px;
+    top: 25.55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.bamboo_footer{
+    
+    background: url(../../assets/icons/bamboo_footer.svg) no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 225.23px;
+    top: 62.64px;
+    transform: matrix(90);
 }
