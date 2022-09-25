@@ -349,6 +349,10 @@ color: #FFFFFF;
     background: url(../../assets/images/pandas.jpg) no-repeat;
     
 }
+.pandas:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .giant_Pandas{
     position: absolute;
     width: 294px;
@@ -412,7 +416,10 @@ background-image: url(../../assets/icons/banana_food.svg) no-repeat;
     top: 1505px;
 background:url(../../assets/images/eagles.jpg) no-repeat;    
 }
-
+.eagles:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .eagles_text{
     position: absolute;
     width: 294px;
@@ -450,7 +457,10 @@ background:url(../../assets/images/eagles.jpg) no-repeat;
     top: 1504px;
 background:url(../../assets/images/gorillas.jpg) no-repeat;
 }
-
+.gorillas:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .gorillas_text{
     position: absolute;
 width: 294px;
@@ -501,7 +511,10 @@ color: #000000;
     top: 1951px;
     background: url(../../assets/images/two-toed.jpg);
 }
-
+.two-toed:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .two-toed_text{
     position: absolute;
     width: 294px;
@@ -540,7 +553,10 @@ color: #000000;
     top: 1951px;
     background:url(../../assets/images/cheetahs.jpg) no-repeat;
 }
-
+.cheetahs:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .cheetahs_text{
     position: absolute;
     width: 294px;
@@ -591,7 +607,10 @@ left: 1010px;
 top: 1951px;
 background: url(../../assets/images/penguins.jpg) no-repeat;
 }
-
+.penguins:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
 .penguins_text{
     position: absolute;
     width: 294px;
