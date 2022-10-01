@@ -1154,3 +1154,899 @@ color: #333B41;
         color: #FFFFFF;
     }
 
+/*Mobile version small desktop 1000 px*/
+@media (max-width: 1000px){
+
+    .head {
+        Width: 1000px;
+        Height: 80px;
+        background-color: black;
+    }
+
+.petStory {
+    box-sizing: border-box;
+    position: absolute;
+    width: 72.49px;
+    height: 44.91px;
+    left: 3.75px;
+    top: -8.45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.rectangle {
+  
+    box-sizing: border-box;
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 27px;
+    top: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+
+}
+.bamboo {
+    position: absolute;
+    left: 39.23px;
+    top: 33.64px;
+}
+.about {
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 172px;
+    top: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.map {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 263px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.zoos {
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 343px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.donate {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 427px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.contact_us {
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: 526px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.designed_by {
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 861px;
+
+    top: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.panda_donate_bg {
+    height: 390px;
+    width: 1000px;
+    margin-left: 0px;
+    right: 0px;
+    top: 88px;
+    background: url(../../assets/images/panda_donate_small_desktop.jpg) no-repeat;
+}
+
+.bg {
+    position: absolute;
+    height: 1333px;
+    width: 1000px;
+    left: 0px;
+    right: 0px;
+    top: 466px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.pick_and_feed_bg {
+    position: absolute;
+    height: 918px;
+    left: 25px;
+    right: 220px;
+    top: 387px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    width:940px;
+}
+.the_zoo_h1 {
+    position: absolute;
+    height: 47px;
+    left: 27px;
+    right: 224px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    width: 764px;
+}
+.text_zoo_h2 {
+    position: absolute;
+    height: 94px;
+    left: 29px;
+    right: 220px;
+    top: 153px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 935px;
+}
+.donation_information_h2 {
+    position: absolute;
+    width: 341px;
+    height: 47px;
+    left: 27px;
+    top: 270px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+}
+.pick_and_feed_h2 {
+    position: absolute;
+    width: 463px;
+    height: 58px;
+    left: 233px;
+    top: -19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+.we_know_the_animal_h2 {
+    position: absolute;
+    width: 845px;
+    height: 29px;
+    left: 50px;
+    top: 69px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.number_four {
+    position: absolute;
+    width: 41px;
+    height: 58px;
+    left: 256px;
+    top: 282px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.x_icon {
+    position: absolute;
+    left: 368px;
+    right: 13px;
+    top: 307px;
+    bottom: 0px;
+    Width: 14px;
+    Height: 14px;
+    background: url(../../assets/icons/x_icon.svg) no-repeat;
+}
+.panda_svg {
+    position: absolute;
+    width: 285.49px;
+    height: 246.47px;
+    left: 447px;
+    top: 177px;
+    background: url(../../assets/icons/panda_svg.svg) no-repeat;
+}
+.panda_diet_h2 {
+    position: absolute;
+    width: 159px;
+    height: 22px;
+    left: 198px;
+    top: 337px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.progress_bar {
+    background: url(../../assets/icons/progress_bar_small_desktop.svg) no-repeat;
+    width: 811px;
+    height: 40px;
+    margin-top: 502px;
+    margin-left: 66px;
+}
+.sum1 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 577px;
+    left: 102px;
+    display: none;
+}
+.dollar_donate1 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 91px;
+    top: 586px;
+    border-radius: 0px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    display: none;
+}
+.dollar_donate2 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 68px;
+    top: 558px;
+    border-radius: 0px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum2 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 82px;
+}
+.dollar_donate3 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 198px;
+    top: 558px;
+    border-radius: 0px;
+    background: #FE9013;
+    background: url(../../assets/icons/dollar_donate_orange.svg) no-repeat;
+}
+
+.sum3 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FE9013;
+    top: 549px;
+    left: 208px;
+}
+
+element.style {
+}
+.dollar_donate4 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 327px;
+    top: 558px;
+    border-radius: 0px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum4{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 339px;
+}
+.dollar_donate5 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 458px;
+    top: 558px;
+    border-radius: 0px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum5 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 469px;
+}
+.dollar_donate6 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 587px;
+    top: 558px;
+    border-radius: 0px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum6 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 599px;
+}
+.dollar_donate7 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 717px;
+    top: 558px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum7 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 729px;
+}
+.dollar_donate8 {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 847px;
+    top: 558px;
+    background: url(../../assets/icons/dollar_donate.svg) no-repeat;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+.sum8 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    top: 549px;
+    left: 859px;
+}
+.another_amount {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    height: 55px;
+    width: 268px;
+    left: 338px;
+    top: 634px;
+    border-radius: 2px;
+    padding-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+}
+.monthly_radio {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 370px;
+    top: 698px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+.once_radio {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 504px;
+    top: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+.btn1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    height: 54px;
+    width: 298px;
+    left: 328px;
+    top: 766px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.share_with_your_friends {
+    position: absolute;
+    width: 301px;
+    height: 22px;
+    left: 322px;
+    top: 850.02px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.footer_div {
+    position: absolute;
+    width: 1000px;
+    height: 443px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 1801px;
+    background: #111115;
+}
+
+.designed_by_text {
+    position: absolute;
+    width: 241px;
+    height: 21px;
+    left: -125px;
+    top: 312px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.RSSchool_text {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    right: 0px;
+    bottom: 0px;
+    top: 357px;
+    left: 738px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.subscribe_to_our_news_text {
+    position: absolute;
+    width: 237px;
+    height: 29px;
+    right: 350px;
+    top: 18px;
+    left: 568px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.input_type {
+    border: #F9804B solid 1px;
+    position: absolute;
+    width: 213px;
+    height: 38px;
+    left: 569px;
+    top: 83px;
+    padding-left: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+.btn6 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 806px;
+    right: 0px;
+    top: 83px;
+    bottom: 0px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    Width: 129px;
+    Height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
+.pet_story_online_footer_h2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 78.49px;
+    height: 51.91px;
+    left: 29.75px;
+    top: 25.55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+    border-radius: 5px;
+}
+.bamboo_footer {
+    background: url(../../assets/icons/bamboo_footer.svg) no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 37.23px;
+    top: 64.64px;
+    transform: matrix(90);
+}
+.btn5 {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 28px;
+    top: 161px;
+    border: none;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.about_footer {
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 331px;
+    bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    top:371px;
+}
+.map_footer {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 422px;
+    bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.zoos_footer{
+    position: absolute;
+width: 36px;
+height: 22px;
+left: 502px;
+bottom: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+}
+.contact_us_footer{
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    left: 586px;
+    bottom: 50px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+    }
+    .facebook {
+        position: absolute;
+        width: 73px;
+        height: 21px;
+        left: 66px;
+        top: 248px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .twitter {
+        margin-left:-188px;
+        margin-top: 34px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .instagram {
+        margin-left:-188px;
+        margin-top: -3px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    .youtube {
+        margin-left:-188px;
+        margin-top: -1px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    .facebook_logo {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 28px;
+        top: 260px;
+        border-radius: 50%;
+        background: rgba(196, 196, 196, 0.5);
+    }
+    .facebook_logo_image {
+        background: url(../../assets/icons/facebook_logo.svg) no-repeat;
+        position: absolute;
+        width: 8px;
+        height: 23px;
+        left: 37px;
+        top: 265px;
+    }
+    .twitter_logo {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 28px;
+        top: 296px;
+        border-radius: 50%;
+        background: rgba(196, 196, 196, 0.5);
+    }
+    .twitter_logo_image {
+        background: url(../../assets/icons/twitter_logo.svg);
+        position: absolute;
+        width: 16px;
+        height: 14px;
+        left: 33px;
+        top: 303px;
+    }
+    .instagram_logo {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 28px;
+        top: 332px;
+        border-radius: 50%;
+        background: rgba(196, 196, 196, 0.5);
+    }
+    .instagram_logo_image {
+        background: url(../../assets/icons/instagram_logo.svg);
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 33px;
+        top: 337px;
+    }
+    .youtube_logo {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 28px;
+        top: 368px;
+        border-radius: 50%;
+        background: rgba(196, 196, 196, 0.5);
+    }
+    .youtube_logo_image {
+        background: url(../../assets/icons/youtube_logo.svg);
+        position: absolute;
+        width: 18px;
+        height: 12.99px;
+        left: 32px;
+        top: 374px;
+    }
+}
