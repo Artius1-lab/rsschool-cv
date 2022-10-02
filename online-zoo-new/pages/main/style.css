@@ -297,7 +297,7 @@ color: #FFFFFF;
     font-size: 48px;
     line-height: 120%;
     color: #333B41;
-    
+    white-space: nowrap;
    
 }
     
@@ -313,7 +313,7 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 130%;
     color: #333B41;
-    
+    white-space: nowrap;
 }
 .how_it_works{
     position: absolute;
@@ -1959,6 +1959,15 @@ visibility: hidden;
 .fredericka_michelin_text_h3_tablet{
     visibility: hidden;
 }
+.text_site_mobile{
+    visibility: hidden;
+}
+.how_it_works_mobile{
+    visibility: hidden;
+}
+.how_it_works_h3_mobile{
+    visibility: hidden;
+}
 
 /*Mobile version small desktop 1000px*/
 
@@ -2191,6 +2200,7 @@ text-align: center;
     line-height: 120%;
     color: #333B41;
     width: 463px;
+    white-space: nowrap;
     
 }
 .text_site {
@@ -4671,5 +4681,646 @@ color: #FFFFFF;
 /*Mobile version mobile pets 320px*/
 
 @media (max-width: 320px){
+    .head {
+        display: flex;
+        flex-wrap: wrap;
+        Width: 320px;
+        Height: 34px;
+        margin-top: 0px;
+        left: 0px;
+        background-color: black;
+    }
+    .petStory {
+        position: absolute;
+        width: 46.86px;
+        height: 29.03px;
+        left: -206px;
+        top: -21px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.2899px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bamboo {
+        position: absolute;
+        left: 13.23px;
+        top: 10.64px;
+    }
+    .line_one{
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        left: 292px;
+        top: 10px;
+        background: #FFFFFF;
+        border-radius: 2px;
+    }
+    .line_two{
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        left: 292px;
+        top: 15px;
+        background: #FFFFFF;
+        border-radius: 2px;
+    }
+    .line_three{
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    left: 292px;
+    top: 19px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.watch_animal {
+    
+        position: absolute;
+        width: 148.64px;
+        height: 204.38px;
+        left: 171px;
+        top: 74.04px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .circle{
+
+position: absolute;
+width: 119.09px;
+height: 119.09px;
+left: 162px;
+top: 23px;
+
+/* orange */
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    }
+
+    .panda_bg{
+        position: absolute;
+        height: 186.96px;
+        width: 320px;
+        left: 0px;
+        right: 0px;
+        top: 32px;
+        background: url(../../assets/images/panda_bg_mobile.jpg) no-repeat;
+        z-index: -1;
+    }
+    .btn1 {
+        position: absolute;
+        width: 298px;
+        height: 54px;
+        left: 13px;
+        top: 241px;
+        color: white;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .backstage {
+        position: absolute;
+        height: 116px;
+        left: 10px;
+        right: 0px;
+        top: 325px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        width: 0px;
+    }
+    .flower {
+        position: absolute;
+        width: 52px;
+        height: 476px;
+        left: 285px;
+        top: 258px;
+        background: url(../../assets/images/flower_mobile.jpg) no-repeat;
+        visibility: visible;
+        mix-blend-mode: multiply;
+    }
+
+    .text_site {
+        position: absolute;
+        width: 100px;
+        height: 42px;
+        left: 12px;
+        right: 0px;
+        top: 380px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #333B41;
+        white-space: pre-wrap;
+        display: none;
+    }
+    .text_site_mobile{
+        visibility: visible;
+        position: absolute;
+        height: 63px;
+        left: 11px;
+        right: 11px;
+        top: 380px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #333B41;
+    }
+    .how_it_works_mobile{
+        position: absolute;
+        width: 217px;
+        height: 29px;
+        left: 12px;
+        top: 456px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        visibility: visible;
+    }
+    .nature_tablet {
+        visibility: visible;
+        position: absolute;
+        height: 110px;
+        left: 10px;
+        right: 0px;
+        top: 501px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+        width: 294px;
+    }
+    .pandas {
+        position: absolute;
+        width: 285.24px;
+        height: 288.24px;
+        left: 19px;
+        top: 752px;
+        background: url(../../assets/images/pandas_tablet.jpg) no-repeat;
+    }
+    .giant_Pandas {
+        position: absolute;
+        width: 229.13px;
+        height: 17px;
+        left: 11.47px;
+        top: 280.47px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .southwest_China {
+        position: absolute;
+        width: 229.13px;
+        height: 14px;
+        left: 9.47px;
+        top: 295.06px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 120%;
+        color: #000000;
+    }
+    .eagles {
+        position: absolute;
+        width: 287px;
+        height: 366px;
+        left: 16px;
+        top: 1104px;
+        background: url(../../assets/images/eagles_tablet.jpg) no-repeat;
+    }
+    .eagles_text {
+        position: absolute;
+        width: 229.13px;
+        height: 17px;
+        left: 12.47px;
+        top: 278.47px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .circle1 {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 243px;
+        top: 1223px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 50%;
+        display: none;
+    }
+    .arrow_left {
+        position: absolute;
+        Width: 16px;
+        Height: 8px;
+        left: 266px;
+        right: 0px;
+        top: 1249px;
+        bottom: 30.65%;
+        background: url(../../assets/icons/arrows_left.svg) no-repeat;
+        display: none;
+    }
+    .arrow_right {
+        position: absolute;
+        Width: 16px;
+        Height: 8px;
+        left: 357px;
+        right: 0px;
+        top: 1249px;
+        bottom: 30.65%;
+        background: url(../../assets/icons/arrows_right.svg) no-repeat;
+        display: none;
+    }
+    .circle2 {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 335px;
+        top: 1223px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 50%;
+        display:none;
+    }
+    .gorillas {
+        position: absolute;
+        width: 366px;
+        height: 366px;
+        left: 18px;
+        top: 1456px;
+        background: url(../../assets/images/gorillas_tablet.jpg) no-repeat;
+    }
+    .btn2 {
+            position: absolute;
+            width: 298px;
+            height: 54px;
+            left: 12px;
+            top: 2160px;
+            background: #FE9013;
+            border-radius: 25px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+        }
+    
+    .section_pick_and_feed {
+        height: 1082px;
+        width: 320px;
+        left: 0px;
+        top: 2274px;
+        border-radius: 0px;
+        position: absolute;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+        opacity: 0.9;
+    }
+
+    .section_in_pick_and_feed {
+        Width: 300px;
+        Height: 1042px;
+        Top: 1870px;
+        border-radius: 20px;
+        position: absolute;
+        left: 10px;
+        right: 220px;
+        top: 19px;
+        background: rgba(253, 253, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+    .alligators {
+        position: absolute;
+        width: 287px;
+        height: 366px;
+        left: 16px;
+        top: 1808px;
+        background: url(../../assets/images/alligators_tablet.jpg) no-repeat;
+        visibility: visible;
+    }
+
+    .palm_foto {
+        position: absolute;
+        mix-blend-mode: multiply;
+        width: 300px;
+        height: 460px;
+        left: 0px;
+        top: 2202px;
+        background: url(../../assets/images/palm_foto_mobile.jpg) no-repeat; 
+        
+    }
+    .flower_foto {
+        position: absolute;
+        mix-blend-mode: multiply;
+        width: 175px;
+        height: 275px;
+        right: 0px;
+        top: 2207px;
+        left: 252px;
+        background: url(../../assets/images/flower_foto_mobile.jpg) no-repeat;
+    }
+    .pick_and_feed_text_h3 {
+        position: absolute;
+    width: 463px;
+    height: 58px;
+    left: -82px;
+    top: -2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+
+    }
+    .we_know_the_animals_h3 {
+        position: absolute;
+        width: 301px;
+        height: 29px;
+        left: -2px;
+        top: 43px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: center;
+        color: #333B41;
+        
+    }
+    .during_a_time_h3 {
+        position: absolute;
+        height: 42px;
+        width: 595px;
+        left: 19px;
+        right: 108px;
+        top: 139px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        color: #333B41;
+        display:none;
+    }
+
+    .even_though_h3 {
+        position: absolute;
+        height: 42px;
+        left: 19px;
+        right: 98px;
+        top: 190px;
+        width: 609px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: rgb(51, 59, 65);
+        display:none;
+    }
+
+    .line {
+        position: absolute;
+        width: 178px;
+        height: 1px;
+        left: 374px;
+        top: 246px;
+        background: #FE9013;
+        display: none;
+    }
+    .how_it_works_h3_mobile {
+        position: absolute;
+        width: 217px;
+        height: 29px;
+        left: 81px;
+        top: 123px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        visibility: visible;
+    }
+
+    .pay_with_card {
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 65px;
+        top: 194px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: #F9804B solid 1px;
+    }
+
+    .michael_john {
+        box-sizing: border-box;
+        position: absolute;
+        width: 304px;
+        height: 113px;
+        left: 7px;
+        top: 3430px;
+        background: #F1F3F2;
+        border-radius: 20px;
+        border: #F9804B solid 1px;
+    }
+    .mila_riksha {
+        box-sizing: border-box;
+        position: absolute;
+        width: 303px;
+        height: 115px;
+        left: 7px;
+        top: 3554px;
+        border: #F9804B 1px solid;
+        background: #F1F3F2;
+        border-radius: 20px;
+    }
+    .fredericka_michelin {
+        box-sizing: border-box;
+        position: absolute;
+        width: 304px;
+        height: 110px;
+        left: 6px;
+        top: 3677px;
+        border: #F9804B solid 1px;
+        background: #F1F3F2;
+        border-radius: 20px;
+    }
+
+    .pay_with_card_text {
+        position: absolute;
+        width: 168px;
+        height: 46px;
+        left: 66px;
+        top: 357px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    .testimonials_text {
+        position: absolute;
+        width: 206px;
+        height: 47px;
+        left: 57px;
+        top: 3363px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #333B41;
+    }
+
+    .btn4 {
+        position: absolute;
+        width: 239px;
+        height: 54px;
+        left: 41px;
+        top: 3822px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 5px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+
+    .btn3 {
+        position: absolute;
+        width: 298px;
+        height: 54px;
+        left: 2px;
+        top: 949px;
+        background: #FE9013;
+        border-radius: 25px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    .payment_text_h3 {
+        position: absolute;
+        width: 168px;
+        height: 46px;
+        left: 66px;
+        top: 598px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+
+    .payment {
+        box-sizing: border-box;
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 66px;
+        top: 437px;
+        border: #F9804B solid 1px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    .your_favorite_animal {
+        box-sizing: border-box;
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 66px;
+        top: 688px;
+        border: #F9804B solid 1px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    .your_fovorite_animal_text_h3 {
+        position: absolute;
+        width: 168px;
+        height: 46px;
+        left: 66px;
+        top: 850px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+
+    .footer_div {
+        position: absolute;
+        width: 640px;
+        height: 282px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 3988px;
+        background: #111115;
+    }
 
 }
