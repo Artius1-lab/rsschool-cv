@@ -3,9 +3,11 @@ margin: 0px;
 padding:0px;
 width: 1600px;
 height:4975px;
-
-
 }
+
+
+
+
 .head{
 display:flex;
 flex-wrap:wrap;
@@ -49,7 +51,26 @@ z-index: 10;
     top: 36.64px;
 
 }
-
+/*popup burger menu*/
+.about_popup{
+    visibility: hidden;
+}
+.map_popup{
+    visibility: hidden;
+}
+.zoos_popup{
+    visibility: hidden;
+}
+.donate_popup{
+    visibility: hidden;
+}
+.contact_us_popup{
+    visibility: hidden;
+}
+.designed_by_popup{
+    visibility: hidden;
+}
+/*popup burger menu end*/
 .about{
 position: absolute;
 width: 43px;
@@ -3311,6 +3332,173 @@ color: #000000;
 
 @media (max-width: 640px){
 
+
+.popup{
+    position:fixed;
+    top:75px;
+    right: -100%;
+    width: 100%;
+    height:350px;
+    background-color:white;
+    z-index: 100;
+    transition:0.3s;
+}
+.popup.open{
+    right:0;
+}
+
+.hamb__field.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hamb__field.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamb__field.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+/*popup burger menu*/
+
+.logo_burger {
+    box-sizing: border-box;
+    position: absolute;
+    width: 78.99px;
+    height: 55.93px;
+    left: 13.8px;
+    top: 12.84px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.2116px;
+    line-height: 120%;
+    text-align: center;
+    color: white;
+    background: url(../../assets/icons/open_bur_menu.svg) no-repeat;
+
+}
+
+
+.about_popup{
+    visibility: visible;
+    position: absolute;
+width: 43px;
+height: 22px;
+left: 10px;
+top: 82px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+
+}
+.map_popup{
+    visibility: visible;
+    position: absolute;
+width: 32px;
+height: 22px;
+left: 10px;
+top: 119px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+.zoos_popup{
+    visibility: visible;
+    position: absolute;
+width: 36px;
+height: 22px;
+left: 10px;
+top: 156px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+.donate_popup{
+    visibility: visible;
+    position: absolute;
+width: 51px;
+height: 22px;
+left: 10px;
+top: 193px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+.contact_us_popup{
+    visibility: visible;
+    position: absolute;
+width: 77px;
+height: 22px;
+left: 10px;
+top: 230px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+.designed_by_popup{
+    visibility: visible;
+    position: absolute;
+width: 104px;
+height: 22px;
+left: 10px;
+top: 267px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+/*popup burger menu end*/
 body{
     margin:0px;
     padding:0px;
@@ -3318,6 +3506,9 @@ body{
     height: 3581px;
 
 }
+
+
+
 .head {
     display: flex;
     flex-wrap: wrap;
@@ -3465,7 +3656,7 @@ border:none;
 
 .panda_bg {
     height: 584px;
-    width: 1000px;
+    width: 640px;
     left:0px;
     right: 0px;
     top:0px;

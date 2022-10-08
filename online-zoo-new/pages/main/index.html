@@ -22,14 +22,14 @@
     <link rel="stylesheet" href="normalize.css">
 
 </head>
-<body>
+<body> 
    <header>
            <div class="head">
             <div class="rectangle">
                 <a href="."><h2 class="petStory">PetStory online</h2></a>
             </div>
             <img class = "bamboo" src="../../assets/icons/bamboo.svg" width="7.03" height="20.98" alt="image description"> 
-              <div class="group_elements">
+              <div class="menu group_elements" id="menu">
                 <div class="about">About</div>
                 <div class="map">Map</div> 
                 <div class="zoos">Zoos</div>
@@ -37,12 +37,37 @@
                 <div class="contact_us">Contact us</div>
                 <div><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks?node-id=126%3A0"><h2 class="designed_by">Designed by &#169</h2></a></div>
                </div>
-               <div class="burger_menu">
-                 <div class="line_one"></div>
-                 <div class="line_two"></div>
-                 <div class="line_three"></div>
+               <nav class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb" id="hamb">
+               <div class="hamb__field burger_menu">
+                 <div class="bar line_one"></div>
+                 <div class="bar line_two"></div>
+                 <div class="bar line_three"></div>
                </div>
-       
+               </div>
+               <a href="#" class="logo" id="logo"></a>
+            </div>
+               </div>
+               </nav>
+
+
+
+
+       <div class="popup" id="popup">
+                <div class="logo_burger"></div>
+                <div class="about_popup">About</div>
+                <div class="map_popup">Map</div> 
+                <div class="zoos_popup">Zoos</div>
+                <div class="donate_popup"><a href="../donate/index.html">Donate</a></div>
+                <div class="contact_us_popup">Contact us</div>
+                <div><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks?node-id=0%3A1"><h2 class="designed_by_popup">Designed by &#169</h2></a></div>
+               </div>
+
+       </div>
+
+
         <div class="panda_bg">
             <span class="circle"></span>
         </div>
@@ -249,7 +274,8 @@
          </div>
 
         </footer>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
+        <script src="script.js"></script>
+
 </body>
 
 </html>
