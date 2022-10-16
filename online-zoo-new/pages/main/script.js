@@ -25,6 +25,7 @@ document.addEventListener("click", (e) =>
   if (!hamb.contains(e.target))
   {
     popup.classList.remove('open');// 
+  
   }
 });
 
